@@ -11,6 +11,7 @@ import Rights from "@/components/Rights";
 import RingSection from "@/components/RingSection";
 import SecondNavbar from "@/components/SecondNavbar";
 import HeroTwo from "@/components/HeroTwo";
+import GlowCard from "@/components/GlowCard";
 
 const HaloCanvas = dynamic(() => import("@/components/HaloCanvas"), {
   ssr: false,

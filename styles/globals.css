@@ -541,6 +541,7 @@ span.inner-heading-span {
     backdrop-filter: blur(0px) !important;
   -webkit-backdrop-filter: blur(0px) !important;
   } */
+   
  
  .ring-cursor {
   transition: opacity 0.26s ease-in-out;
@@ -885,7 +886,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     font-size: 18px;
 }
   .ring-left-width p {
-  font-size: 22px;
+    font-size: 22px;
 }
   .middle-quote-font h3 {
     font-size: 68px;
