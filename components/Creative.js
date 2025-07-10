@@ -1,11 +1,12 @@
 import React from "react";
 import RingSlider from "./RingSlider";
+import RingSliderTwo from "./RingSliderTwo";
 
 function Creative() {
   return (
     <>
-      <section className="creative-main">
-        <div className="w-[90%] max-w-6xl mx-auto">
+      <section className="creative-main z-10 relative">
+        <div className="w-6xl mx-auto max-container-width">
           <div className="inner-heading text-center w-full">
             <h2 className="olivera-font">
               Our creative <br />
@@ -45,7 +46,8 @@ function Creative() {
         </div>
 
         <div className="w-[90%] max-w-6xl creative-second-sec mx-auto"></div>
-        <RingSlider />
+        {/* <RingSlider /> */}
+        <RingSliderTwo />
       </section>
     </>
   );

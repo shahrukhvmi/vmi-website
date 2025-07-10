@@ -1,7 +1,7 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -40,26 +40,30 @@ const testimonials = [
 
 export default function TestimonialSlider() {
   return (
-    <div className="testimonial-main-wrap">
-      <div className="relative w-[90%] max-w-6xl mx-auto text-white">
+    <div className="testimonial-main-wrap z-10 relative">
+      <div className="relative w-6xl max-container-width mx-auto text-white">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
           loop={true}
           navigation={{
             nextEl: ".swiper-next",
             prevEl: ".swiper-prev",
           }}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
           pagination={{
             clickable: true,
             el: ".swiper-pagination",
           }}
-          className="max-w-6xl mx-auto"
+          className="mx-auto"
         >
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-                <div className="w-[100%] rounded-lg overflow-hidden shadow-lg">
+                <div className="w-[100%] testimonial-img-width rounded-lg overflow-hidden shadow-lg">
                   <img
                     src={t.image}
                     alt={t.name}

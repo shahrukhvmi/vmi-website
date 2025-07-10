@@ -67,9 +67,7 @@ export default function RingSlider() {
   }, []);
 
   return (
-    <div ref={wrapRef} className="ring-wrap-main">
-      {/* <div className="ring-glow" /> */}
-
+    <div className="">
       <div
         className="inner-heading text-center w-full mb-30 olivera-font
       "
@@ -80,7 +78,7 @@ export default function RingSlider() {
         </h2>
       </div>
 
-      <div>
+      <div className="ring-wrap-main" ref={wrapRef}>
         <div className="ring-wrap">
           <div className="ring-stack mt-32">
             {[

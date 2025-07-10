@@ -5,7 +5,9 @@ export default function NavBar() {
   const [activeIdx, setActiveIdx] = useState(0);
 
   return (
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-md border border-white/20 shadow-glow rounded-full z-50 flex justify-between items-center w-[90%] max-w-6xl ring-cursor">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-md border border-white/20 shadow-glow rounded-full z-50 flex justify-between items-center w-6xl ring-cursor max-container-width overflow-hidden">
+      <div className="hero-spotlight"> </div>
+
       <div className="font-semibold text-white text-lg tracking-wide">
         <img src="/logo.png" alt="Vibrant Media Logo" />
       </div>
@@ -29,11 +31,11 @@ export default function NavBar() {
         ))}
       </ul>
 
-      <button className="flex items-center gap-2 nav-btn cursor-pointer olivera-font text-xl">
+      <button className="flex items-center gap-2 nav-btn cursor-pointer poppins-font text-xl">
         Get Started{" "}
-        <span>
+        {/* <span>
           <img src="/btn-icon.svg" />
-        </span>
+        </span> */}
       </button>
     </nav>
   );

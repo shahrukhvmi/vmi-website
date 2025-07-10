@@ -3,8 +3,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer-wrapper pt-20">
-      <div className="w-[90%] max-w-6xl mx-auto">
+    <div className="footer-wrapper pt-20 z-10 relative">
+      <div className="max-container-width w-6xl mx-auto">
         <div className="footer-wrap">
           <div className="footer-left footer-col w-[50%]">
             <div className="footer-logo-img">
@@ -16,7 +16,7 @@ function Footer() {
             </p>
             <div className="example-2 footer-btn mt-6">
               <button
-                className="inner flex justify-center gap-2 olivera-font text-2xl items-center"
+                className="inner flex justify-center poppins-font text-xl items-center"
                 style={{
                   background:
                     "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
@@ -29,9 +29,9 @@ function Footer() {
                 }}
               >
                 Book A Discovery Call{" "}
-                <span>
+                {/* <span>
                   <img src="/btn-icon.svg" />
-                </span>
+                </span> */}
               </button>
             </div>
 
@@ -81,7 +81,9 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="footer-right footer-col"></div>
+          <div className="footer-right footer-col text-right">
+            {/* <img src="/footer-bg-blur.png" /> */}
+          </div>
         </div>
         <div className="rights-wrap flex justify-between pb-10 poppins-font">
           <p className="text-[#E9E9E9]">
