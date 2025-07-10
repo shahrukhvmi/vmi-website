@@ -36,8 +36,8 @@ export default function Index() {
       {/* <StatsSection /> */}
       <Creative />
 
-      <div className="w-[90%] max-w-6xl mx-auto flex justify-center brand-secton-main py-20">
-        <div className="brand-secton-wrap center-content">
+      <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
+        <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
             Your brand deserves more than just a launch,
             <br /> it deserves lift-off. From strategy to scale, we’re <br />{" "}
@@ -45,7 +45,7 @@ export default function Index() {
           </h3>
           <div className="hero-btn example-2">
             <button
-              className="inner flex justify-center gap-2 olivera-font text-3xl items-center"
+              className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:
                   "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
@@ -58,9 +58,9 @@ export default function Index() {
               }}
             >
               Book A Discovery Call{" "}
-              <span>
+              {/* <span>
                 <img src="/btn-icon.svg" />
-              </span>
+              </span> */}
             </button>
           </div>
         </div>
@@ -69,8 +69,8 @@ export default function Index() {
       <TestimonialSlider />
       <Technologia />
 
-      <div className="w-[90%] max-w-6xl mx-auto flex justify-center great-main items-center">
-        <div className="great-design-wrap center-content">
+      <div className="max-container-width w-6xl mx-auto flex justify-center great-main items-center z-10 relative">
+        <div className="great-design-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
             Great design isn’t just visual — it’s functional,
             <br /> intentional, and obsessively crafted to move people.

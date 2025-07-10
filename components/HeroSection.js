@@ -1,20 +1,20 @@
 export default function HeroSection() {
   return (
     <>
-      <section className="relative pt-74 flex flex-col items-center justify-center text-white text-center px-4 z-10">
-        <div className="hero-spotlight"> </div>
+      <section className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10">
+        <div className="hero-section-shadow"></div>
         <div className="hero-left-shadow">
           <img src="/left.png" />
         </div>
         <div className="hero-right-shadow">
           <img src="/right.png" />
         </div>
-        <span className="bg-white/10 text-sm px-4 py-1 rounded-full border border-white/20 text-green-400 mb-4 z-10">
+        <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 text-green-400 mb-4 z-10">
           ● Available for New Projects
         </span>
         <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
-          ROI-Driven Design and <br />
-          <span className="hero-span olivera-font">Development</span> Agency
+          ROI-Driven Design and <br /> Development Agency
+          {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
         <p className="mt-4 text-gray-300 text-xl z-10 poppins-font">
           We don’t just design, we solve your brand’s biggest challenges
@@ -37,7 +37,7 @@ export default function HeroSection() {
 
         <div className="hero-btn example-2">
           <button
-            className="inner flex justify-center gap-2 olivera-font text-3xl items-center"
+            className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
             style={{
               background:
                 "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
@@ -50,9 +50,9 @@ export default function HeroSection() {
             }}
           >
             Book A Discovery Call{" "}
-            <span>
+            {/* <span>
               <img src="/btn-icon.svg" />
-            </span>
+            </span> */}
           </button>
         </div>
       </section>
