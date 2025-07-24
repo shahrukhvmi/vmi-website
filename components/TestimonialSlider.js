@@ -70,7 +70,7 @@ export default function TestimonialSlider() {
                     className="object-cover w-full"
                   />
                 </div>
-                <div className="text-[48px] flex flex-col justify-around">
+                <div className="text-[48px] flex flex-col justify-around home-testimonial-text">
                   <h3 className="olivera-font">“{t.quote}”</h3>
                   <p className="mt-6 text-sm font-normal poppins-font">
                     <strong>{t.name}</strong> <br />

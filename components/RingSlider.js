@@ -108,7 +108,7 @@ export default function RingSlider() {
                 </>,
               ],
             ].map(([title, body]) => (
-              <article key={title} className="ring-card">
+              <article key={title} className="ring-card backdrop-blur-[20px]">
                 <h3 className="olivera-font">{title}</h3>
                 <p className="poppins-font">{body}</p>
 

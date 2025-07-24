@@ -12,6 +12,8 @@ import RingSection from "@/components/RingSection";
 import SecondNavbar from "@/components/SecondNavbar";
 import HeroTwo from "@/components/HeroTwo";
 import GlowCard from "@/components/GlowCard";
+import HomePortfolioSection from "@/components/HomePortfolioSection";
+import { useEffect } from "react";
 
 const HaloCanvas = dynamic(() => import("@/components/HaloCanvas"), {
   ssr: false,
@@ -26,8 +28,6 @@ export default function Index() {
       {/* <LiquidCursor /> */}
       <StarsCanvas />
 
-      <NavBar />
-
       <div className="relative">
         {/* <HeroTwo /> */}
         <HeroSection />
@@ -36,6 +36,8 @@ export default function Index() {
       </div>
       {/* <StatsSection /> */}
       <Creative />
+
+      <HomePortfolioSection />
 
       <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
         <div className="brand-secton-wrap center-content middle-quote-font">
@@ -59,9 +61,6 @@ export default function Index() {
               }}
             >
               Book A Discovery Call{" "}
-              {/* <span>
-                <img src="/btn-icon.svg" />
-              </span> */}
             </button>
           </div>
         </div>
@@ -81,7 +80,6 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <Footer />
       {/* <Rights /> */}
     </main>
   );

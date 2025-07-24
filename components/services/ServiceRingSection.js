@@ -5,26 +5,30 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-export default function RingSliderTwo() {
+export default function ServiceRingSection() {
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
 
   const data = [
     {
-      title: "Charting the Unknown Frontier",
-      body: "We deep-dive into your market, uncovering insight that fuels strategy.",
+      img: "/service-ring-1.png",
+      title: "1. A free strategy to start!",
+      body: "Before our meeting, complete a form in 5 minutes. Outline goals and audience. We'll discuss outcomes and a plan.",
     },
     {
-      title: "Blueprints for Brilliance",
-      body: "Every user journey is mapped like a constellation, guiding design with clarity.",
+      img: "/service-ring-2.png",
+      title: "2. Onboarding",
+      body: "Happy with our strategy? It's time for our 2nd call to onboard you. We'll create milestones and set up your payment plan.",
     },
     {
-      title: "Building Tomorrow’s Interface",
-      body: "From sketches to code we craft products that perform as beautifully as they look.",
+      img: "/service-ring-3.png",
+      title: "3. Let the magic happen",
+      body: "We bring your project to life, refining details to ensure it is captivating and impactful. Project design, QA testing, and revisions.",
     },
     {
-      title: "Engines On. We Have Liftoff!",
-      body: "Go live with confidence, then refine every metric in orbit.",
+      img: "/service-ring-4.png",
+      title: "4. Launch & Maintenance",
+      body: "Once approved, we transfer files, give access, set up backups, and prepare for launch. Handover of files and post-delivery support.",
     },
   ];
 
@@ -68,11 +72,11 @@ export default function RingSliderTwo() {
 
   return (
     <>
-      <div className="w-6xl mx-auto max-container-width mb-20">
+      <div className="w-6xl mx-auto max-container-width mb-20 z-10">
         <div className="inner-heading text-center w-full">
           <h2 className="olivera-font">
-            <span className="">We're here to</span> <br />
-            <span className="inner-heading-span">make you win</span>
+            <span className="">Process is the</span> <br />
+            <span className="inner-heading-span">key to success</span>
           </h2>
         </div>
       </div>
@@ -85,10 +89,13 @@ export default function RingSliderTwo() {
               <div
                 key={i}
                 ref={(el) => (cardsRef.current[i] = el)}
-                className="absolute ring-card backdrop-blur-[20px] opacity-0"
+                className="absolute service-ring-card backdrop-blur-[20px] opacity-0"
               >
-                <h3 className="mb-4">{item.title}</h3>
-                <p className="">{item.body}</p>
+                <div className="flex justify-center">
+                  <img src={item?.img} />
+                </div>
+                <h3 className="mb-4 olivera-font">{item.title}</h3>
+                <p className="poppins-font">{item.body}</p>
               </div>
             ))}
           </div>

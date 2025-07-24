@@ -1,23 +1,22 @@
-export default function HeroSection() {
+import ServiceHorizontal from "./ServiceHorizontal";
+
+export default function ServicesHero() {
   return (
-    <>
-      <section className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10">
+    <section>
+      <div className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10 pb-100">
         <div className="hero-section-shadow"></div>
-        <div className="hero-left-shadow">
-          <img src="/left.png" />
-        </div>
-        <div className="hero-right-shadow">
-          <img src="/right.png" />
-        </div>
-        <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 text-green-400 mb-4 z-10">
-          ● Available for New Projects
+        <div className="about-banner-shadow"></div>
+        <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 mb-4 z-10 poppins-font">
+          We don’t just design
         </span>
         <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
-          ROI-Driven Design and <br /> Development Agency
+          We Shape Brand Identities
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
         <p className="mt-4 text-gray-300 text-xl z-10 poppins-font">
-          We don’t just design, we solve your brand’s biggest challenges
+          Vibrant Media Inc. is a digital marketing agency that helps businesses
+          create
+          <br /> data-driven strategies to attract and convert leads.
         </p>
 
         {/* <GlowButton /> */}
@@ -41,7 +40,9 @@ export default function HeroSection() {
                 </span> */}
           </button>
         </div>
-      </section>
-    </>
+      </div>
+
+      <ServiceHorizontal />
+    </section>
   );
 }

@@ -10,7 +10,7 @@ function Technologia() {
         <div className="max-container-width w-6xl mx-auto">
           <div className="inner-heading text-center w-full">
             <h2 className="olivera-font">
-              Technologies <br />
+              <span className="inner-heading-top">Technologies</span> <br />
               <span className="inner-heading-span">behind the magic</span>
             </h2>
           </div>

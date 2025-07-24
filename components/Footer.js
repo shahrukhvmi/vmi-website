@@ -56,8 +56,8 @@ function Footer() {
             </div>
 
             <div className="footer-email pt-20 poppins-font">
-              <p className="text-[15px]">Email</p>
-              <p className="text-[24px]">info@vibrantmediainc.com</p>
+              <p className="email-text1">Email</p>
+              <p className="email-text2">info@vibrantmediainc.com</p>
             </div>
 
             <div className="footer-email pt-10 pb-20 poppins-font">
