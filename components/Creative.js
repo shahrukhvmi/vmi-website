@@ -1,6 +1,7 @@
 import React from "react";
 import RingSlider from "./RingSlider";
 import RingSliderTwo from "./RingSliderTwo";
+import HomeRingSlider from "./HomeRingSlider";
 
 function Creative() {
   return (
@@ -47,7 +48,8 @@ function Creative() {
 
         <div className="w-[90%] max-w-6xl creative-second-sec mx-auto"></div>
         {/* <RingSlider /> */}
-        <RingSliderTwo />
+        {/* <RingSliderTwo /> */}
+        <HomeRingSlider />
       </section>
     </>
   );

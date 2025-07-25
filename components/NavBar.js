@@ -42,7 +42,9 @@ export default function NavBar() {
       {/* <div className="hero-spotlight"> </div> */}
 
       <div className="font-semibold text-white text-lg tracking-wide">
-        <img src="/logo.png" alt="Vibrant Media Logo" />
+        <Link href="/">
+          <img src="/logo.png" alt="Vibrant Media Logo" />
+        </Link>
       </div>
       <ul className="md:flex gap-6 text-sm text-white font-medium poppins-font">
         {navItems.map((item, i) => (

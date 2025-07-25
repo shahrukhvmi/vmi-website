@@ -112,7 +112,7 @@ export default function ServiceHorizontal() {
 
         <div
           ref={scrollContentRef}
-          className="whitespace-nowrap px-20 tracking-wide font-[serif] flex items-center"
+          className="whitespace-nowrap px-20 tracking-wide font-[serif] flex items-center z-30"
           style={{ whiteSpace: "nowrap" }}
         >
           <div className="serevice-horizontal-content-wrapper">
