@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import OfficeSlider from "./OfficeSlider";
 
 export default function AboutHero() {
+  const router = useRouter();
+
   return (
     <>
       <section className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 pb-80 h-full">
@@ -22,6 +25,7 @@ export default function AboutHero() {
         {/* <GlowButton /> */}
         <div className="example-2 footer-btn mt-6">
           <button
+            onClick={() => router.push("/contact-us")}
             className="inner flex justify-center poppins-font text-xl items-center"
             style={{
               background:

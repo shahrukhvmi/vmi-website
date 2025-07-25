@@ -1,8 +1,8 @@
-import React from "react";
+import React, { use } from "react";
 
 export default function ContactForm() {
   return (
-    <div className="w-6xl mx-auto max-container-width relative z-10 pt-60 mb-10">
+    <div className="w-6xl mx-auto max-container-width relative z-10 pt-40 mb-10">
       <div className="contact-hero-section-shadow"></div>
       <div className="about-banner-shadow"></div>
       <div className="contact-card">

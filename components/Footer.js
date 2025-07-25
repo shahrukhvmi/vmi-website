@@ -1,7 +1,11 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
 function Footer() {
+  const router = useRouter();
+  const currentPath = router.pathname;
+
   return (
     <div className="footer-wrapper pt-20 z-10 relative">
       <div className="max-container-width w-6xl mx-auto">
@@ -16,6 +20,7 @@ function Footer() {
             </p>
             <div className="example-2 footer-btn mt-6">
               <button
+                onClick={() => router.push("/contact-us")}
                 className="inner flex justify-center poppins-font text-xl items-center"
                 style={{
                   background:
@@ -37,21 +42,34 @@ function Footer() {
 
             <div className="footer-navigation py-8 mt-20">
               <ul className="flex justify-between poppins-font">
-                <li className="cursor-pointer">
-                  <p>Home</p>
-                </li>
-                <li className="cursor-pointer">
-                  <p>About Us</p>
-                </li>
-                <li className="cursor-pointer">
-                  <p>Services</p>
-                </li>
-                <li className="cursor-pointer">
-                  <p>Portfolio</p>
-                </li>
-                <li className="cursor-pointer">
-                  <p>Contact Us</p>
-                </li>
+                {[
+                  { label: "Home", href: "/" },
+                  { label: "About Us", href: "/about" },
+                  { label: "Services", href: "/services" },
+                  { label: "Portfolio", href: "/#portfolio" },
+                  { label: "Contact Us", href: "/contact-us" },
+                ].map(({ label, href }) => {
+                  const isActive =
+                    href === "/#portfolio"
+                      ? router.asPath === "/#portfolio" ||
+                        (currentPath === "/" &&
+                          router.asPath.includes("#portfolio"))
+                      : currentPath === href;
+
+                  return (
+                    <li key={label} className="cursor-pointer">
+                      <Link href={href}>
+                        <p
+                          className={`px-4 py-2 transition-all duration-300 ${
+                            isActive ? "footer-active" : ""
+                          }`}
+                        >
+                          {label}
+                        </p>
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 

@@ -3,9 +3,12 @@ import AboutVideo from "@/components/about/AboutVideo";
 import CeoSection from "@/components/about/CeoSection";
 import HorizontalScrollSection from "@/components/about/HorizontalScrollSection";
 import StarsCanvas from "@/components/StarsCanvas";
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function about() {
+  const router = useRouter();
+
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
       <StarsCanvas />
@@ -27,6 +30,7 @@ export default function about() {
           </h3>
           <div className="hero-btn example-2">
             <button
+              onClick={() => router.push("/contact-us")}
               className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:

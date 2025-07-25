@@ -1,4 +1,7 @@
+import { useRouter } from "next/router";
+
 export default function HeroSection() {
+  const router = useRouter();
   return (
     <>
       <section className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10">
@@ -23,6 +26,7 @@ export default function HeroSection() {
         {/* <GlowButton /> */}
         <div className="example-2 footer-btn mt-6">
           <button
+            onClick={() => router.push("/contact-us")}
             className="inner flex justify-center poppins-font text-xl items-center"
             style={{
               background:

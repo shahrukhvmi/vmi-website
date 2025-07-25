@@ -14,6 +14,7 @@ import HeroTwo from "@/components/HeroTwo";
 import GlowCard from "@/components/GlowCard";
 import HomePortfolioSection from "@/components/HomePortfolioSection";
 import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const HaloCanvas = dynamic(() => import("@/components/HaloCanvas"), {
   ssr: false,
@@ -23,6 +24,8 @@ const StarsCanvas = dynamic(() => import("@/components/StarsCanvas"), {
 });
 
 export default function Index() {
+  const router = useRouter();
+
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
       {/* <LiquidCursor /> */}
@@ -48,6 +51,7 @@ export default function Index() {
           </h3>
           <div className="hero-btn example-2">
             <button
+              onClick={() => router.push("/contact-us")}
               className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:

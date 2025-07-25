@@ -2,34 +2,41 @@ import React, { useEffect, useRef, useState } from "react";
 
 export default function AboutVideo() {
   const videoRef = useRef(null);
-  const [scale, setScale] = useState(0.8); // initial small size
+  const [scale, setScale] = useState(0.6); // Initial small size
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry && entry.intersectionRatio > 0.5) {
-          setScale(1); // scale to full
-        } else {
-          setScale(0.6); // shrink again
-        }
-      },
-      {
-        root: null,
-        rootMargin: "0px",
-        threshold: [0.3, 0.5, 0.7], // trigger as it's entering center
-      }
-    );
+    const handleScroll = () => {
+      if (!videoRef.current) return;
 
-    const current = videoRef.current;
-    if (current) observer.observe(current);
+      const rect = videoRef.current.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
 
-    return () => {
-      if (current) observer.unobserve(current);
+      // Distance of video center from viewport center
+      const distanceToCenter = Math.abs(
+        rect.top + rect.height / 2 - windowHeight / 2
+      );
+
+      // Max distance at which scaling starts
+      const maxDistance = windowHeight / 2;
+
+      // Map distance to a scale factor between 0.6 and 1
+      const progress = Math.max(
+        0,
+        Math.min(1, 1 - distanceToCenter / maxDistance)
+      );
+      const smoothScale = 0.6 + progress * 0.4;
+
+      setScale(smoothScale);
     };
+
+    const onScroll = () => requestAnimationFrame(handleScroll);
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
-    <div className="w-6xl mx-auto max-container-width relative z-10 my-50 about-video-wrap">
+    <div className="w-[90%] mx-auto max-container-width relative z-10 my-50 about-video-wrap">
       <div className="about-video-heading mb-20">
         <h2 className="olivera-font text-center">
           Innovate together <br />
@@ -39,7 +46,7 @@ export default function AboutVideo() {
 
       <div
         ref={videoRef}
-        className="relative group overflow-hidden rounded-xl about-video-inner mx-auto transition-transform duration-700 ease-in-out"
+        className="relative group overflow-hidden rounded-xl about-video-inner mx-auto transition-transform duration-300 ease-out"
         style={{
           transform: `scale(${scale})`,
         }}

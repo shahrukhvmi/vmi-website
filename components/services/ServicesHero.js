@@ -1,6 +1,9 @@
+import { useRouter } from "next/router";
 import ServiceHorizontal from "./ServiceHorizontal";
 
 export default function ServicesHero() {
+  const router = useRouter();
+
   return (
     <section>
       <div className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10 pb-100">
@@ -22,6 +25,7 @@ export default function ServicesHero() {
         {/* <GlowButton /> */}
         <div className="example-2 footer-btn mt-6">
           <button
+            onClick={() => router.push("/contact-us")}
             className="inner flex justify-center poppins-font text-xl items-center"
             style={{
               background:

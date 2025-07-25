@@ -868,6 +868,30 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-position-x: 85%;
   background-position-y: 150px;
 }
+.footer-active {
+  background-color: transparent;
+  text-shadow:
+    0 0 4px rgba(255, 255, 255, 0.7),
+    0 0 8px rgba(255, 255, 255, 0.5),
+    0 0 16px rgba(255, 255, 255, 0.4),
+    0 0 24px rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.footer-active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -4px;
+  width: 80%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+  border-radius: 2px;
+}
+
 .hero-text {
   font-size: 68px;
   line-height: 1;
@@ -1708,6 +1732,12 @@ label {
   }
   .hero-btn .inner {
     font-size: 18px;
+  }
+  .office-slider .slick-list {
+    height: 414px;
+  }
+  .slick-slide {
+    padding: 10px;
   }
 }
 @media (max-width: 1440px) {

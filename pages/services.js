@@ -4,9 +4,12 @@ import ServicesHero from "@/components/services/ServicesHero";
 import StarsCanvas from "@/components/StarsCanvas";
 import Technologia from "@/components/Technologia";
 import TestimonialSlider from "@/components/TestimonialSlider";
+import { useRouter } from "next/router";
 import React from "react";
 
 export default function services() {
+  const router = useRouter();
+
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
       <StarsCanvas />
@@ -45,6 +48,7 @@ export default function services() {
           </h3>
           <div className="hero-btn example-2">
             <button
+              onClick={() => router.push("/contact-us")}
               className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:

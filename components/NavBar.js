@@ -88,6 +88,7 @@ export default function NavBar() {
 
       <div className="nav-btn example-2">
         <button
+          onClick={() => router.push("/contact-us")}
           className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
           style={{
             background:
