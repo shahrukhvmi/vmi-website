@@ -12,8 +12,6 @@ export default function services() {
 
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
-      <StarsCanvas />
-
       <ServicesHero />
 
       {/* <ServiceHorizontal /> */}

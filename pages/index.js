@@ -29,7 +29,6 @@ export default function Index() {
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
       {/* <LiquidCursor /> */}
-      <StarsCanvas />
 
       <div className="relative">
         {/* <HeroTwo /> */}

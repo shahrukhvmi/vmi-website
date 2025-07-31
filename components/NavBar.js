@@ -54,36 +54,14 @@ export default function NavBar() {
               activeIdx === i ? " active" : ""
             }`}
           >
-            {item.label === "Portfolio" ? (
-              <a
-                href={router.pathname === "/" ? "#portfolio" : "/#portfolio"}
-                className="hover:text-vibrant transition duration-300"
-                onClick={(e) => {
-                  e.preventDefault();
-
-                  if (router.pathname === "/") {
-                    const el = document.getElementById("portfolio");
-                    el?.scrollIntoView({ behavior: "smooth" });
-                  } else {
-                    router.push("/#portfolio");
-                  }
-
-                  setActiveIdx(i);
-                }}
-              >
-                {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-vibrant group-hover:w-full transition-all duration-300"></span>
-              </a>
-            ) : (
-              <Link
-                href={item.url}
-                className="hover:text-vibrant transition duration-300"
-                onClick={() => setActiveIdx(i)}
-              >
-                {item.label}
-                <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-vibrant group-hover:w-full transition-all duration-300"></span>
-              </Link>
-            )}
+            <Link
+              href={item.url}
+              className="hover:text-vibrant transition duration-300"
+              onClick={() => setActiveIdx(i)}
+            >
+              {item.label}
+              <span className="absolute bottom-0 left-0 w-0 h-[2px] bg-vibrant group-hover:w-full transition-all duration-300"></span>
+            </Link>
           </li>
         ))}
       </ul>

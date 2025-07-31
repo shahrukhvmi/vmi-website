@@ -11,8 +11,6 @@ export default function about() {
 
   return (
     <main className="relative text-white min-h-screen overflow-hidden">
-      <StarsCanvas />
-
       <AboutHero />
 
       <HorizontalScrollSection />
