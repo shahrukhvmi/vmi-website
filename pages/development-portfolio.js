@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function DevelopmentPortfolio() {
@@ -23,189 +24,217 @@ export default function DevelopmentPortfolio() {
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-1.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/media-co-uk">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-1.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Media.co.uk Project
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Media.co.uk Project
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-2.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/earthane">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-2.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Earthane</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Earthane</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-3.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/rhv-media">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-3.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">RHV Media</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">RHV Media</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-4.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/tapatio">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-4.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Tapatio</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Tapatio</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-5.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/360-products">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-5.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">360 Products </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">360 Products </p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-6.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/loco-customs">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-6.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Loco’s Customs
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Loco’s Customs</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-7.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/fulfill-panda">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-7.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Fulfill Panda</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Fulfill Panda</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-8.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/relish-restaurant">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-8.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Relish Restaurant
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Relish Restaurant
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-9.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/etizan">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-9.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Etizan</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Etizan</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-10.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/ferrara">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-10.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Ferrara</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Ferrarra</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-11.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/karwan-rent-a-car">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-11.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Karwan Rent a Car
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Karwan Rent a Car
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/web-12.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Web Design & Development
-                    </span>
+            <Link href="/development-portfolio/taiia-jewellery">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/web-12.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Web Design & Development
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Taiia Jewellery
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Taiia Jewellery</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

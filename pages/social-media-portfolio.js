@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function SocialMediaPortfolio() {
@@ -23,97 +24,109 @@ export default function SocialMediaPortfolio() {
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-1.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/tech-ancestry">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-1.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Tech Ancestry</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Tech Ancestry</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-2.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/bridle-360">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-2.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Bridle 360</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Bridle 360</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-3.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/ravvrank">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-3.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Ravvrank.co</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Ravvrank.co</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-4.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/tanaal-properties">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-4.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Tanaal Properties
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Tanaal Properties
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-5.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/salli-sit-happy">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-5.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Salli Sit Happy{" "}
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Salli Sit Happy{" "}
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/social-6.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Social Media Campaigns
-                    </span>
+            <Link href="/social-media-portfolio/aaila-foods">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/social-6.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Social Media Campaigns
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Aaila Foods</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Aaila Foods</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

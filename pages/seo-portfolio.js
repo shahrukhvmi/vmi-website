@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function SeoPortfolio() {
@@ -23,157 +24,179 @@ export default function SeoPortfolio() {
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-1.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/hire-tablets">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-1.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Hire Tablets</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Hire Tablets</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-2.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/mayfair-weightloss-clinic">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-2.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Mayfair Weight Loss Clinic
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    Mayfair Weight Loss Clinic
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-3.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/floor-express">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-3.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Floor Express</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Floor Express</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-4.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/son-of-a-coder">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-4.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Son of a Coder
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Son of a Coder</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-5.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/ontime">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-5.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Ontime</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Ontime</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-6.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/the-chapter-hotels">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-6.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      The Chapter Hotels
+                    </p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">
-                    The Chapter Hotels
-                  </p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-7.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/truly-greek">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-7.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Truly Greek</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Truly Greek</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-8.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/fulfill-panda">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-8.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Fulfill Panda</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Fullfill Panda</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
 
           <div className="flex justify-between mt-8 mb-30">
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-9.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/360-products">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-9.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">360 Products</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">360 Products</p>
                 </div>
               </div>
-            </div>
+            </Link>
 
-            <div className="detail-portfolio-image-wrapper relative">
-              <img src="/seo-10.png" />
-              <div className="detail-portfolio-image-overlay">
-                <div className="detail-portfolio-banner-badge">
-                  <div className="mb-2">
-                    <span className="ms-2 poppins-font detail-portfolio-branding">
-                      Search engine optimization
-                    </span>
+            <Link href="/seo-portfolio/earthane">
+              <div className="detail-portfolio-image-wrapper relative">
+                <img src="/seo-10.png" />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">Earthane</p>
                   </div>
-                  <p className="ms-2 poppins-font font-bold">Earthane</p>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
