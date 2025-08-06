@@ -48,6 +48,16 @@ export default function OfficeSlider() {
     autoplay: true,
     speed: 4000,
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+          arrows: false,
+        },
+      },
+    ],
   };
 
   return (

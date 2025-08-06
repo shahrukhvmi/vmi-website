@@ -5,7 +5,7 @@ export default function DevelopmentPortfolio() {
   return (
     <main className="relative text-white  overflow-hidden z-10">
       <section>
-        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 ">
+        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 single-portfolio-responsive-spacing">
           <div className="portfolio-banner-shadow"></div>
           <div className="portfolio-banner-shadow-right"></div>
         </div>
@@ -23,7 +23,7 @@ export default function DevelopmentPortfolio() {
             </h2>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/media-co-uk">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-1.png" />
@@ -59,7 +59,7 @@ export default function DevelopmentPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/rhv-media">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-3.png" />
@@ -93,7 +93,7 @@ export default function DevelopmentPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/360-products">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-5.png" />
@@ -129,7 +129,7 @@ export default function DevelopmentPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/fulfill-panda">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-7.png" />
@@ -165,7 +165,7 @@ export default function DevelopmentPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/etizan">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-9.png" />
@@ -199,7 +199,7 @@ export default function DevelopmentPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/development-portfolio/karwan-rent-a-car">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/web-11.png" />

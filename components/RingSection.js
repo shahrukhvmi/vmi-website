@@ -123,7 +123,7 @@ const RingSection = () => {
           <div className="w-6xl ring-section-max-width flex flex-col md:flex-row justify-between items-center gap-12 mx-auto py-40">
             {/* Left Content */}
             <div className="text-center md:text-left ring-left-width">
-              <div className="ml-[-60px] mb-4">
+              <div className="ml-[0px] md:ml-[-60px] mb-4">
                 <img
                   src="/second-logo.png"
                   alt="Logo"

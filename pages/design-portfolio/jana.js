@@ -5,7 +5,7 @@ export default function Jana() {
   return (
     <main className="relative text-white  overflow-hidden z-10">
       <section>
-        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 ">
+        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 single-portfolio-inner-responsive-spacing">
           <div className="portfolio-banner-shadow"></div>
           <div className="portfolio-banner-shadow-right"></div>
         </div>
@@ -23,7 +23,7 @@ export default function Jana() {
             </Link>
           </div>
 
-          <div className="flex mt-5 gap-6 mb-30">
+          <div className="single-portfolio-wrapper flex mt-5 gap-6 mb-30">
             <div className="single-portfolio-left">
               <img src="/jana.png" />
             </div>
@@ -33,7 +33,7 @@ export default function Jana() {
                 Branding
               </span>
               <div className="portfolio-single-title olivera-font mt-2 mb-5">
-                <h1 className="text-[68px]">Jana</h1>
+                <h1 className="text-[68px] single-portfolio-heading">Jana</h1>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">

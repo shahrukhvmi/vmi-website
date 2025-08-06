@@ -22,7 +22,7 @@ export default function CeoSection() {
       </h2>
 
       <div className="ceo-image-main">
-        <div className="relative ceo-image-wrap">
+        <div className="relative ceo-image-wrap mb-20 md:mb-0">
           <img src="/ceocard1.png" />
 
           <div className="ceo-overlay-wrap">

@@ -6,7 +6,7 @@ export default function AboutHero() {
 
   return (
     <>
-      <section className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 pb-80 h-full">
+      <section className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 pb-80 h-full about-hero-section">
         <div className="hero-section-shadow"></div>
         <div className="about-banner-shadow"></div>
         <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 mb-4 z-10 poppins-font">
@@ -16,7 +16,7 @@ export default function AboutHero() {
           We Shape Brand Identities
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
-        <p className="mt-4 text-gray-300 text-xl z-10 poppins-font">
+        <p className="mt-4 text-gray-300 text-xl z-10 poppins-font main-banner-para">
           Vibrant Media Inc. is a digital marketing agency that helps businesses
           create
           <br /> data-driven strategies to attract and convert leads.

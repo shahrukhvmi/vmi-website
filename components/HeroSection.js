@@ -4,7 +4,7 @@ export default function HeroSection() {
   const router = useRouter();
   return (
     <>
-      <section className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10">
+      <section className="relative pt-90 flex flex-col items-center justify-center text-white text-center px-4 z-10 index-main-padding">
         <div className="hero-section-shadow"></div>
         <div className="hero-left-shadow">
           <img src="/left.png" />
@@ -19,7 +19,7 @@ export default function HeroSection() {
           ROI-Driven Design and <br /> Development Agency
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
-        <p className="mt-4 text-gray-300 text-xl z-10 poppins-font">
+        <p className="mt-4 text-gray-300 text-xl z-10 poppins-font main-banner-para">
           We don’t just design, we solve your brand’s biggest challenges
         </p>
 

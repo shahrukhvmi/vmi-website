@@ -5,7 +5,7 @@ export default function DesignPortfolio() {
   return (
     <main className="relative text-white  overflow-hidden z-10">
       <section>
-        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 ">
+        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 single-portfolio-responsive-spacing">
           <div className="portfolio-banner-shadow"></div>
           <div className="portfolio-banner-shadow-right"></div>
         </div>
@@ -23,7 +23,7 @@ export default function DesignPortfolio() {
             </h2>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/shawarma-lite">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-1.png" />
@@ -59,7 +59,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/top-grease">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-4.png" />
@@ -93,7 +93,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/level-orthodontics">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-5.png" />
@@ -131,7 +131,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/the-shiny-surface">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-7.png" />
@@ -169,7 +169,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/lbs-lacrete-backhoe-services">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-11.png" />
@@ -205,7 +205,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/aj-cleaning-london">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-9.png" />
@@ -243,7 +243,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/bull-supps">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-13.png" />
@@ -277,7 +277,7 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/design-portfolio/alaa-alafaq">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/design-15.png" />

@@ -5,7 +5,7 @@ export default function SeoPortfolio() {
   return (
     <main className="relative text-white  overflow-hidden z-10">
       <section>
-        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 ">
+        <div className="relative pt-60 flex flex-col items-center justify-center text-white text-center px-4 z-10 single-portfolio-responsive-spacing">
           <div className="portfolio-banner-shadow"></div>
           <div className="portfolio-banner-shadow-right"></div>
         </div>
@@ -23,7 +23,7 @@ export default function SeoPortfolio() {
             </h2>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/seo-portfolio/hire-tablets">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/seo-1.png" />
@@ -59,7 +59,7 @@ export default function SeoPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/seo-portfolio/floor-express">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/seo-3.png" />
@@ -95,7 +95,7 @@ export default function SeoPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/seo-portfolio/ontime">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/seo-5.png" />
@@ -131,7 +131,7 @@ export default function SeoPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/seo-portfolio/truly-greek">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/seo-7.png" />
@@ -165,7 +165,7 @@ export default function SeoPortfolio() {
             </Link>
           </div>
 
-          <div className="flex justify-between mt-8 mb-30">
+          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
             <Link href="/seo-portfolio/360-products">
               <div className="detail-portfolio-image-wrapper relative">
                 <img src="/seo-9.png" />

@@ -14,7 +14,7 @@ function PortfolioHero() {
           Stories Told in <br /> Pixels and Code
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
-        <div className="flex justify-between gap-6">
+        <div className="flex justify-between gap-6 portfolio-fields">
           <div className="portfolio-banner-badge flex items-center justify-center">
             <img src="/design-icon.svg" alt="Design" />
             <p className="ms-2 poppins-font">Designing</p>

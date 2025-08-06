@@ -39,6 +39,79 @@ export default function Index() {
       {/* <StatsSection /> */}
       <Creative />
 
+      {/* Mobile Section */}
+
+      <div className="mobile-ring-slider relative z-10">
+        <div className="w-6xl mx-auto max-container-width mb-20 z-10 ring-slider-responsive-heading">
+          <div className="inner-heading text-center w-full">
+            <h2 className="olivera-font">
+              <span className="">We're here to</span> <br />
+              <span className="inner-heading-span">make you win</span>
+            </h2>
+          </div>
+        </div>
+
+        <div className="relative w-full">
+          <div className="w-full mt-15 mb-40">
+            <div className="relative w-full flex items-center justify-center mb-10">
+              <div className="service-ring-card backdrop-blur-[20px] ">
+                <div className="flex justify-center">
+                  <img src="/service-ring-1.png" />
+                </div>
+                <h3 className="mb-4 olivera-font">
+                  1. A free strategy to start!
+                </h3>
+                <p className="poppins-font">
+                  Before our meeting, complete a form in 5 minutes. Outline
+                  goals and audience. We'll discuss outcomes and a plan.
+                </p>
+              </div>
+            </div>
+
+            <div className="relative w-full flex items-center justify-center mb-10">
+              <div className="service-ring-card backdrop-blur-[20px] ">
+                <div className="flex justify-center">
+                  <img src="/service-ring-2.png" />
+                </div>
+                <h3 className="mb-4 olivera-font">2. Onboarding</h3>
+                <p className="poppins-font">
+                  Happy with our strategy? It's time for our 2nd call to onboard
+                  you. We'll create milestones and set up your payment plan.
+                </p>
+              </div>
+            </div>
+
+            <div className="relative w-full flex items-center justify-center mb-10">
+              <div className="service-ring-card backdrop-blur-[20px] ">
+                <div className="flex justify-center">
+                  <img src="/service-ring-3.png" />
+                </div>
+                <h3 className="mb-4 olivera-font">3. Let the magic happen</h3>
+                <p className="poppins-font">
+                  We bring your project to life, refining details to ensure it
+                  is captivating and impactful. Project design, QA testing, and
+                  revisions.
+                </p>
+              </div>
+            </div>
+
+            <div className="relative w-full flex items-center justify-center mb-10">
+              <div className="service-ring-card backdrop-blur-[20px] ">
+                <div className="flex justify-center">
+                  <img src="/service-ring-4.png" />
+                </div>
+                <h3 className="mb-4 olivera-font">4. Launch & Maintenance</h3>
+                <p className="poppins-font">
+                  Once approved, we transfer files, give access, set up backups,
+                  and prepare for launch. Handover of files and post-delivery
+                  support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <HomePortfolioSection />
 
       <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">

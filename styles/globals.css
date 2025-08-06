@@ -460,16 +460,19 @@ span.inner-heading-span {
 .creative-menu-item .icon {
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 0%;
   opacity: 0;
+  transition: .3s ease-out;
+  width: 250px;
   /* transition: opacity 0.3s ease; */
 }
 
 .creative-menu-item:hover .icon {
   opacity: 1;
+  transition: .3s ease-out;
 }
 .creative-menu-item:hover .icon img {
-  width: 30px;
+  width: 100%;
 }
 
 .creative-hr {
@@ -639,7 +642,7 @@ span.inner-heading-span {
   inset: 0;
   z-index: 0;
   background-image: inherit; /* fallback if you want to keep the same image */
-  background-image: url("./../public/circle.png");
+  background-image: url("./../public/new_circle.png");
   background-repeat: no-repeat;
   background-position: center 27%;
   background-size: 50%;
@@ -1294,7 +1297,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .service-horizontal-heading {
   font-size: 90px;
-  line-height: 1;
+  line-height: 0.9;
 }
 .service-horizontal-sub-heading {
   font-size: 20px;
@@ -1341,6 +1344,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   height: 100%;
   left: -1px;
   border-radius: 5px;
+}
+.horizontal-icon img {
+  width: 100px;
 }
 
 /* ================================ Services page css End ============================= */
@@ -1665,7 +1671,12 @@ label {
 }
 /* ================================ Portfolio page css End ============================= */
 
-
+.mobile-ring-slider {
+  display: none;
+}
+.desktop-ring-slider {
+  display: block;
+}
 
 
 /* ----------  Responsive tweaks  ---------- */
@@ -1929,20 +1940,394 @@ label {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
+  .desktop-nav-btn {
+    display: none;
+  }
+  .hero-text {
+    font-size: 46px;
+  }
+  .main-banner-para {
+    font-size: 16px !important;
+  }
+  .main-banner-para br {
+    display: none;
+  }
+  .footer-btn .inner {
+    font-size: 16px;
+    padding: 16px;
+  }
+  .footer-btn {
+    max-width: 240px;
+  }
+  .ring-left-width {
+    width: 100%;
+  }
+  .second-ring-logo-responsive {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .inner-heading h2 {
+    font-size: 70px;
+    margin-left: 0px;
+  }
+  span.inner-heading-span{
+    padding-left: 0px;
+  }
+  .creative-menu{
+    margin-top: 136px;
+  }
+  .creative-main{
+    background-position: center 285px;
+  }
+  .creative-menu-item .icon{
+    width: 145px;
+  }
+  .ring-wrap-main::before {
+    background-position: center center;
+    background-size: 100%;
+  }
+  .service-ring-card{
+    width: 60%;
+  }
+  .center-content h3{
+    font-size: 34px;
+  }
+  .testimonial-img-width {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .home-testimonial-text h3 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .home-testimonial-text p {
+    text-align: center;
+  }
+  .footer-wrapper{
+    background-image: none;
+  }
+  .footer-left {
+    width: 100% !important;
+  }
+  .footer-right {
+    display: none;
+  }
+  .footer-wrap {
+    text-align: center;
+  }
+  .footer-logo-img {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-btn {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .footer-navigation {
+    width: 100%;
+    margin-top: 46px;
+  }
+  .footer-icons {
+    justify-content: center;
+  }
+  .rights-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  .slick-slide.slick-cloned {
+    padding: 5px;
+  }
+  .slick-slide {
+    padding: 5px;
+  }
+  .office-slider .slick-list {
+    height: 250px;
+  }
+  .horizontal-remaining-text {
+    font-size: 40px;
+  }
+  .ceo-font-size {
+    font-size: 38px;
+  }
+  .ceo-font-size br {
+    display: none;
+  }
+  .ceo-image-main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ceo-image-wrap {
+    width: 74%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .service-horizontal-heading {
+    font-size: 60px;
+  }
+  .service-horizontal-sub-heading {
+    font-size: 18px;
+  }
+  .services-horizontal-text {
+    font-size: 14px;
+  }
+  .portfolio-fields {
+    flex-direction: column;
+  }
+  .portfolio-inner-heading h2 {
+    font-size: 70px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  .portfolio-inner-heading-span {
+    padding-left: 0px;
+  }
+  .portfolio-single {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .detail-portfolio-image-wrapper img{
+    width: 100%;
+  }
+  .detail-portfolio-image-wrapper {
+    margin-bottom: 74px;
+  }
+  .single-portfolio-heading {
+    line-height: 1;
+    margin-top: 20px;
+  }
+  .single-portfolio-wrapper {
+    flex-direction: column-reverse;
+  }
+  .single-portfolio-left, .single-portfolio-right {
+    width: 100%;
+  }
+  .single-portfolio-right{
+    margin-bottom: 30px;
+  }
+  .single-portfolio-left img{
+    width: 100%;
+  }
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-left, .contact-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
   .heading {
     font-size: 1.5rem;
   }
-
   .paragraph {
     font-size: 0.875rem;
   }
-
   .subHeading {
     font-size: 16px;
   }
-
   .headingDashBoard {
     font-size: 1.4rem;
+  }
+  .hero-text {
+    font-size: 36px;
+  }
+  .ring-section-max-width{
+    padding: 0px !important;
+  }
+  .inner-heading h2{
+    font-size: 54px;
+  }
+  .creative-menu {
+    margin-top: 80px;
+  }
+  .creative-menu-item {
+    font-size: 32px;
+  }
+  .creative-menu-item .icon {
+    width: 120px;
+  }
+  .creative-second-sec {
+    margin-top: 200px;
+  }
+  .ring-slider-responsive-heading{
+    margin-bottom: 0px !important;
+  }
+  .ring-wrap-main::before{
+    display: none;
+  }
+  .ring-responsive-height {
+    height: 70vh;
+  }
+  .home-portfolio-wrap {
+    height: auto;
+  }
+  .service-ring-card h3 {
+    font-size: 30px;
+  }
+  .service-ring-card {
+    width: 80%;
+  }
+  .center-content h3 {
+    font-size: 30px; 
+  }
+  .center-content h3 br {
+    display: none;
+  }
+  .testimonial-main-wrap {
+    background-position-y: 0;
+  }
+  .home-testimonial-text h3 {
+    font-size: 30px;
+  }
+  .tech-main-shadow {
+    margin-top: 20px;
+  }
+  .technologia-main .inner-heading-top, .home-portfolio-wrap .inner-heading-top {
+    margin-left: 0px !important;
+  }
+  .technologia-main br {
+    display: none;
+  }
+  .desktop-ring-slider {
+    display: none;
+  }
+  .mobile-ring-slider {
+    display: block;
+  }
+  .footer-nav {
+    flex-direction: column;
+  }
+  .footer-active::after {
+    width: 25%;
+  }
+  .creative-main {
+    padding-top: 240px;
+  }
+  .home-portfolio-slide {
+    width: 300px !important;
+  }
+  .slick-slide.slick-cloned {
+    padding: unset;
+  }
+  .slick-slide.slick-active.slick-center.slick-current{
+    transform: unset !important;
+    transition: transform 1s ease-in-out;
+  }
+  .office-slider .slick-list {
+    height: unset;
+  }
+  .slick-slide.slick-active {
+    transform: translateY(0px);
+  }
+  .slick-slide{
+    transition: none !important;
+  }
+  .office-slider {
+    margin-top: 30px;
+  }
+  .about-hero-section {
+    padding-bottom: 200px;
+  }
+  .ceo-image-wrap{
+    width: 100%;
+  }
+  .ceo-main-wrap{
+    padding-bottom: 0px;
+  }
+  .about-video-heading h2 {
+    font-size: 48px;
+    line-height: 1;
+  }
+  .about-video-wrap {
+    margin-bottom: 50px;
+  }
+  .brand-secton-wrap:after{
+    top: -269px;
+    right: -236px;
+  }
+  .serevice-horizontal-content-wrapper{
+    padding-top: 67px;
+  }
+  .serevice-horizontal-content-wrapper {
+    justify-content: space-around;
+  }
+  .service-slider-img-wrapper img {
+    width: 80%;
+  }
+  .serevice-horizontal-content-wrapper{
+    width: 1300px;
+  }
+  .technologia-logos {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .portfolio-inner-heading-top {
+    margin-left: 0px;
+  }
+  .portfolio-inner-heading h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  .single-portfolio-responsive-spacing {
+    padding-top: 20px;
+  }
+  .single-portfolio-inner-responsive-spacing {
+    padding-top: 150px;
+  }
+  .contact-right .form-row {
+    display: block;
+  }
+  .contact-right .form-group {
+    margin-bottom: 20px;
+  }
+  .form {
+    gap: 0;
+  }
+  .contact-card-wrap{
+    flex-direction: column;
+  }
+  .contact-card-inner {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .contact-form-heading {
+    font-size: 50px;
+  }
+  .contact-form-heading br {
+    display: none;
+  }
+  .index-main-padding {
+    padding-top: 200px;
+  }
+  .hero-text br {
+    display: none;
+  }
+  .great-main {
+    height: auto;
+    margin-bottom: 58px;
+  }
+  .testimonial-main-wrap {
+    background-position-y: 0;
+    margin-bottom: 150px;
+  }
+  .service-responsive-padding {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .service-great-responsive {
+    margin-bottom: 150px;
+    margin-top: 150px;
+  }
+  .service-brand-responsive{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .portfolio-single{
+    width: 100%;
   }
 }

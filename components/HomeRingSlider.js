@@ -71,8 +71,8 @@ export default function HomeRingSlider() {
   }, []);
 
   return (
-    <>
-      <div className="w-6xl mx-auto max-container-width mb-20 z-10">
+    <div className="desktop-ring-slider">
+      <div className="w-6xl mx-auto max-container-width mb-20 z-10 ring-slider-responsive-heading">
         <div className="inner-heading text-center w-full">
           <h2 className="olivera-font">
             <span className="">We're here to</span> <br />
@@ -81,7 +81,7 @@ export default function HomeRingSlider() {
         </div>
       </div>
       <div ref={containerRef} className="relative w-full ring-wrap-main">
-        <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden">
+        <div className="sticky top-0 h-screen w-full flex items-center justify-center overflow-hidden ring-responsive-height">
           <div className="absolute w-[70vw] h-[70vw] animate-spin-slow z-0"></div>
 
           <div className="relative w-full h-full flex items-center justify-center">
@@ -101,6 +101,6 @@ export default function HomeRingSlider() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

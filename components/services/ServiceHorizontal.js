@@ -115,10 +115,10 @@ export default function ServiceHorizontal() {
           className="whitespace-nowrap px-20 tracking-wide font-[serif] flex items-center z-30"
           style={{ whiteSpace: "nowrap" }}
         >
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/branding.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
                 Branding <br />& Identity Design
@@ -137,12 +137,16 @@ export default function ServiceHorizontal() {
                 vision.
               </p>
             </div>
+
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-1.png" />
+            </div>
           </div>
 
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/ux.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
                 UI/UX Design
@@ -158,105 +162,121 @@ export default function ServiceHorizontal() {
                 <br /> your business goals. We design everything from wireframes
                 and prototypes to
                 <br /> full-scale web and mobile user journeys. The result is
-                seamless experiences across <br />
-                all platforms.
+                seamless experiences <br />
+                across all platforms.
               </p>
+            </div>
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-2.png" />
             </div>
           </div>
 
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/web_design.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Branding <br />& Identity Design
+                Website Design <br />& Development
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
-                Build a brand that speaks volumes.
+                Websites that don’t just look good. They perform.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Your brand is more than just a logo. It’s the face of your
-                business. We help you craft
-                <br /> a strong, memorable identity with custom logo design,
-                color palettes, typography,
-                <br /> and complete brand guidelines. Whether you're starting
-                from scratch or rebranding,
-                <br /> we’ll create visuals that truly reflect your mission and
-                vision.
+                We create responsive, fast, and conversion-focused websites
+                tailored to
+                <br /> your business needs. From corporate websites to eCommerce
+                platforms, our
+                <br /> development team builds with scalability, performance,
+                and SEO in mind. Every
+                <br /> site we develop is optimized for speed, security, and a
+                flawless user experience.
               </p>
+            </div>
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-3.png" />
             </div>
           </div>
 
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/custom_web.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Branding <br />& Identity Design
+                Custom Web <br />
+                Applications
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
-                Build a brand that speaks volumes.
+                Powerful solutions to automate and grow your business.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Your brand is more than just a logo. It’s the face of your
-                business. We help you craft
-                <br /> a strong, memorable identity with custom logo design,
-                color palettes, typography,
-                <br /> and complete brand guidelines. Whether you're starting
-                from scratch or rebranding,
-                <br /> we’ll create visuals that truly reflect your mission and
-                vision.
+                Need something more advanced than a website? We build secure,
+                scalable, and
+                <br /> user-friendly web applications using modern tech stacks
+                like Laravel, React, and
+                <br /> MySQL. Whether it’s a CRM, dashboard, B2B platform, or
+                internal tool, we develop
+                <br /> applications that solve real problems and deliver real
+                value.
               </p>
+            </div>
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-4.png" />
             </div>
           </div>
 
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/mobile_app.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Branding <br />& Identity Design
+                Mobile App <br />
+                Development
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
-                Build a brand that speaks volumes.
+                From concept to launch. We bring your app idea to life.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Your brand is more than just a logo. It’s the face of your
-                business. We help you craft
-                <br /> a strong, memorable identity with custom logo design,
-                color palettes, typography,
-                <br /> and complete brand guidelines. Whether you're starting
-                from scratch or rebranding,
-                <br /> we’ll create visuals that truly reflect your mission and
-                vision.
+                We specialize in building cross-platform mobile apps using React
+                Native that work
+                <br /> seamlessly on both iOS and Android. Whether it's a
+                startup MVP or a full-featured
+                <br /> app for your enterprise, we focus on performance,
+                usability, and design to ensure
+                <br /> your app stands out in today’s crowded market.
               </p>
+            </div>
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-5.png" />
             </div>
           </div>
 
-          <div className="serevice-horizontal-content-wrapper">
+          <div className="serevice-horizontal-content-wrapper gap-25">
             <div className="serevice-horizontal-content-inner">
               <div className="horizontal-icon">
-                <img src="/horizontal-icon.png" />
+                <img src="/seo.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Branding <br />& Identity Design
+                Search Engine <br />
+                Optimization (Seo)
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
-                Build a brand that speaks volumes.
+                Rank higher. Get found. Grow organically.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Your brand is more than just a logo. It’s the face of your
-                business. We help you craft
-                <br /> a strong, memorable identity with custom logo design,
-                color palettes, typography,
-                <br /> and complete brand guidelines. Whether you're starting
-                from scratch or rebranding,
-                <br /> we’ll create visuals that truly reflect your mission and
-                vision.
+                We help your business climb the search engine ranks with
+                comprehensive SEO
+                <br /> strategies. From keyword research and on-page
+                optimization to technical audits
+                <br /> and backlink building, we cover it all. Our goal is
+                simple. Increase your visibility,
+                <br /> drive traffic, and deliver measurable ROI.
               </p>
+            </div>
+            <div className="service-slider-img-wrapper">
+              <img src="/service-slider-6.png" />
             </div>
           </div>
         </div>

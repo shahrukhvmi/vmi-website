@@ -19,28 +19,28 @@ function Creative() {
             <div className="creative-menu-item">
               <span className="creative-menu-span">Designing</span>
               <span className="icon">
-                <img src="/btn-icon.svg" />
+                <img src="/creative-icon-1.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Development</span>
               <span className="icon">
-                <img src="/btn-icon.svg" />
+                <img src="/creative-icon-2.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Marketing</span>
               <span className="icon">
-                <img src="/btn-icon.svg" />
+                <img src="/creative-icon-3.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Strategy & Campaigns</span>
               <span className="icon">
-                <img src="/btn-icon.svg" />
+                <img src="/creative-icon-4.png" />
               </span>
             </div>
           </div>

@@ -41,20 +41,15 @@ function Footer() {
             </div>
 
             <div className="footer-navigation py-8 mt-20">
-              <ul className="flex justify-between poppins-font">
+              <ul className="flex justify-between poppins-font footer-nav">
                 {[
                   { label: "Home", href: "/" },
                   { label: "About Us", href: "/about" },
                   { label: "Services", href: "/services" },
-                  { label: "Portfolio", href: "/#portfolio" },
+                  { label: "Portfolio", href: "/portfolio" },
                   { label: "Contact Us", href: "/contact-us" },
                 ].map(({ label, href }) => {
-                  const isActive =
-                    href === "/#portfolio"
-                      ? router.asPath === "/#portfolio" ||
-                        (currentPath === "/" &&
-                          router.asPath.includes("#portfolio"))
-                      : currentPath === href;
+                  const isActive = currentPath === href;
 
                   return (
                     <li key={label} className="cursor-pointer">
@@ -73,14 +68,14 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="footer-email pt-20 poppins-font">
+            <div className="footer-email pt-10 md:pt-20 poppins-font">
               <p className="email-text1">Email</p>
               <p className="email-text2">info@vibrantmediainc.com</p>
             </div>
 
             <div className="footer-email pt-10 pb-20 poppins-font">
               <p className="text-[15px]">Follow Us</p>
-              <ul className="flex mt-4 gap-4">
+              <ul className="flex mt-4 gap-4 footer-icons">
                 <li>
                   <img src="/facebook.svg" />
                 </li>
