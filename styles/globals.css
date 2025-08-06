@@ -1671,6 +1671,8 @@ label {
 }
 .portfolio-main-wrapper {
   margin-top: 150px;
+  position: relative;
+  z-index: 99;
 }
 /* ================================ Portfolio page css End ============================= */
 
