@@ -21,7 +21,7 @@ export default function PortfolioDevelopmentWrap() {
   ];
 
   return (
-    <section className="home-portfolio-wrap" id="portfolio">
+    <section className="portfolio-main-wrapper" id="portfolio">
       <div className="w-6xl mx-auto max-container-width">
         <div className="portfolio-inner-heading text-center w-full">
           <h2 className="olivera-font">

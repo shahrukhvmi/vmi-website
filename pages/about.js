@@ -22,9 +22,9 @@ export default function about() {
       <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
         <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
-            Your brand deserves more than just a launch,
-            <br /> it deserves lift-off. From strategy to scale, we’re <br />{" "}
-            here to guide every step of your journey.
+            Our vision lies in our clients’ success and goal fulfillment. <br />{" "}
+            We don’t just deliver on expectations; we deliver what moves
+            <br /> your business forward.
           </h3>
           <div className="hero-btn example-2">
             <button
@@ -41,7 +41,7 @@ export default function about() {
     `,
               }}
             >
-              Book A Discovery Call{" "}
+              Speak with Us{" "}
             </button>
           </div>
         </div>

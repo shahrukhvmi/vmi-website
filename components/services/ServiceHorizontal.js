@@ -121,20 +121,21 @@ export default function ServiceHorizontal() {
                 <img src="/branding.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Branding <br />& Identity Design
+                Brand Design <br />& Management
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
                 Build a brand that speaks volumes.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Your brand is more than just a logo. It’s the face of your
-                business. We help you craft
-                <br /> a strong, memorable identity with custom logo design,
-                color palettes, typography,
-                <br /> and complete brand guidelines. Whether you're starting
-                from scratch or rebranding,
-                <br /> we’ll create visuals that truly reflect your mission and
-                vision.
+                We design clear brand visuals, set the right tone for your
+                messaging,
+                <br /> and ensure your brand looks and sounds consistent
+                everywhere. <br />
+                Our brand design and management service allows your brand to
+                stay strong, trusted,
+                <br /> and competitive across all platforms. Your brand is more
+                than just a logo.
+                <br /> It’s the face of your business. We help you craft
               </p>
             </div>
 
@@ -155,15 +156,16 @@ export default function ServiceHorizontal() {
                 User-first designs that deliver results.
               </p>
               <p className="services-horizontal-text poppins-font">
-                A great product starts with a great experience. Our UI/UX design
-                services focus
-                <br /> on creating interfaces that are visually stunning, easy
-                to use, and aligned with
-                <br /> your business goals. We design everything from wireframes
-                and prototypes to
-                <br /> full-scale web and mobile user journeys. The result is
-                seamless experiences <br />
-                across all platforms.
+                Our UI/UX design services are focused on creating striking
+                visuals,
+                <br /> easy-to-understand navigation, and clear graphics. We
+                have experienced <br /> designers who create designs that mirror
+                your brand’s essence and identity,
+                <br />
+                allowing you to capture maximum user attention and interest.
+                These services <br />
+                are delivered across various industries and businesses of all
+                scales.
               </p>
             </div>
             <div className="service-slider-img-wrapper">
@@ -177,20 +179,19 @@ export default function ServiceHorizontal() {
                 <img src="/web_design.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Website Design <br />& Development
+                Web Development
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
                 Websites that don’t just look good. They perform.
               </p>
               <p className="services-horizontal-text poppins-font">
-                We create responsive, fast, and conversion-focused websites
-                tailored to
-                <br /> your business needs. From corporate websites to eCommerce
-                platforms, our
-                <br /> development team builds with scalability, performance,
-                and SEO in mind. Every
-                <br /> site we develop is optimized for speed, security, and a
-                flawless user experience.
+                We develop functional and responsive websites for businesses,
+                helping <br />
+                them in extending their services to online platforms. Our web
+                development <br />
+                services include both frontend and backend elements, as well as
+                static and
+                <br /> dynamic websites, catering to a wide range of industries.
               </p>
             </div>
             <div className="service-slider-img-wrapper">
@@ -204,21 +205,19 @@ export default function ServiceHorizontal() {
                 <img src="/custom_web.png" />
               </div>
               <h3 className="olivera-font service-horizontal-heading">
-                Custom Web <br />
-                Applications
+                Digital Marketing
               </h3>
               <p className="service-horizontal-sub-heading poppins-font">
                 Powerful solutions to automate and grow your business.
               </p>
               <p className="services-horizontal-text poppins-font">
-                Need something more advanced than a website? We build secure,
-                scalable, and
-                <br /> user-friendly web applications using modern tech stacks
-                like Laravel, React, and
-                <br /> MySQL. Whether it’s a CRM, dashboard, B2B platform, or
-                internal tool, we develop
-                <br /> applications that solve real problems and deliver real
-                value.
+                Our comprehensive marketing equips you with the right strategy,
+                <br /> implementing it across multiple channels to drive higher
+                visibility, leads,
+                <br />
+                and conversions. This service includes social media marketing,
+                email <br />
+                marketing, content marketing, and search engine optimization.
               </p>
             </div>
             <div className="service-slider-img-wrapper">
@@ -239,13 +238,18 @@ export default function ServiceHorizontal() {
                 From concept to launch. We bring your app idea to life.
               </p>
               <p className="services-horizontal-text poppins-font">
-                We specialize in building cross-platform mobile apps using React
-                Native that work
-                <br /> seamlessly on both iOS and Android. Whether it's a
-                startup MVP or a full-featured
-                <br /> app for your enterprise, we focus on performance,
-                usability, and design to ensure
-                <br /> your app stands out in today’s crowded market.
+                We specialize in building robust applications that seamlessly
+                function
+                <br /> across devices. Our expertise lies in building
+                high-performance
+                <br /> software applications for iOS and Android platforms
+                utilizing
+                <br /> advanced technologies such as React Native, Flutter, and
+                Swift.
+                <br /> From intuitive UI/UX design to scalable backend
+                architecture,
+                <br /> our development process is built around speed, security,
+                and usability.
               </p>
             </div>
             <div className="service-slider-img-wrapper">
@@ -266,13 +270,17 @@ export default function ServiceHorizontal() {
                 Rank higher. Get found. Grow organically.
               </p>
               <p className="services-horizontal-text poppins-font">
-                We help your business climb the search engine ranks with
-                comprehensive SEO
-                <br /> strategies. From keyword research and on-page
-                optimization to technical audits
-                <br /> and backlink building, we cover it all. Our goal is
-                simple. Increase your visibility,
-                <br /> drive traffic, and deliver measurable ROI.
+                Our experienced SEO team responsibly audits, optimizes, and
+                manages
+                <br /> websites to achieve higher rankings on search engines.
+                Our well-structured
+                <br /> process encompasses thorough market research, keyword
+                identification and
+                <br />
+                utilization, content strategy and mapping, as well as on-page,
+                off-page,
+                <br /> and technical optimization, ensuring improved visibility
+                and conversions.
               </p>
             </div>
             <div className="service-slider-img-wrapper">

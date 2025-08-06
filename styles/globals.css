@@ -178,7 +178,7 @@ a {
 }
 
 .hero-btn .inner {
-  padding: 20px;
+  padding: 16px;
   background: #8959bc;
   color: #fff;
   border-radius: 50px;
@@ -410,7 +410,7 @@ li.relative.group.nav-items.active::after {
   right: 0;
 }
 .inner-heading h2 {
-  font-size: 152px;
+  font-size: 116px;
   margin-left: -165px;
   line-height: 0.8;
 }
@@ -432,7 +432,7 @@ span.inner-heading-span {
 
 .creative-menu-item {
   position: relative;
-  font-size: 82px;
+  font-size: 58px;
   cursor: pointer;
   padding-right: 2rem;
   transition: color 0.3s ease;
@@ -460,10 +460,10 @@ span.inner-heading-span {
 .creative-menu-item .icon {
   position: absolute;
   right: 0;
-  top: 0%;
+  top: -10px;
   opacity: 0;
   transition: .3s ease-out;
-  width: 250px;
+  width: 174px;
   /* transition: opacity 0.3s ease; */
 }
 
@@ -897,7 +897,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .hero-text {
   font-size: 68px;
-  line-height: 1;
+  line-height: 1.1;
 }
 .hero-span {
   font-size: 83px;
@@ -1626,7 +1626,7 @@ label {
     0 8px 16px rgba(0, 0, 0, 0.3);
 }
 .portfolio-inner-heading h2{
-  font-size: 128px;
+  font-size: 116px;
   line-height: 0.8;
 }
 .detail-portfolio-image-overlay {
@@ -1669,6 +1669,9 @@ label {
 .single-portfolio-left, .single-portfolio-right {
   width: 48%;
 }
+.portfolio-main-wrapper {
+  margin-top: 150px;
+}
 /* ================================ Portfolio page css End ============================= */
 
 .mobile-ring-slider {
@@ -1681,6 +1684,10 @@ label {
 
 /* ----------  Responsive tweaks  ---------- */
 @media (min-width: 1921px) {
+  .inner-heading h2 {
+    font-size: 158px;
+    
+}
   .max-container-width {
     width: 70% !important;
   }
@@ -1734,7 +1741,7 @@ label {
     margin-bottom: 280px;
   }
   .about-video-inner {
-    width: 80%;
+    width: 100%;
   }
   .office-slider .slick-list {
     height: 710px;
@@ -1802,11 +1809,12 @@ label {
     padding: 16px 32px;
   }
   .home-testimonial-text h3 {
-    font-size: 62px;
+    font-size: 44px;
   }
   .home-testimonial-text p {
     font-size: 22px;
   }
+
 }
 
 @media (min-width: 640px) {
@@ -1826,7 +1834,7 @@ label {
     font-size: 108px;
   }
   .creative-menu-item {
-    font-size: 62px;
+    font-size: 52px;
   }
   .ring-card h3 {
     font-size: 40px;
@@ -1863,6 +1871,16 @@ label {
   .slick-slide {
     padding: 10px;
   }
+  .portfolio-inner-heading h2{
+    font-size: 96px;
+  }
+  .ring-wrap-main::before {
+    background-position: center center;
+    background-size: 62%;
+  }
+  .service-ring-card {
+    width: 34%;
+  }
 }
 @media (max-width: 1440px) {
   .footer-wrapper {
@@ -1891,6 +1909,21 @@ label {
   }
   .second-ring-css {
     padding-top: 34%;
+  }
+  .ring-wrap-main::before {
+    background-size: 75%;
+  }
+  .service-ring-card {
+    width: 44%;
+  }
+  .inner-heading-top {
+    margin-left: -90px;
+  }
+  .hero-text {
+    font-size: 58px;
+  }
+  .service-horizontal-heading {
+    font-size: 78px;
   }
 }
 @media (max-width: 1024px) {

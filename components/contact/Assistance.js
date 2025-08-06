@@ -5,11 +5,9 @@ export default function Assistance() {
     <div className="w-6xl mx-auto max-container-width relative z-10 mb-30">
       <div className="contact-card-wrap flex relative z-10">
         <div className="contact-card-inner bg-white/5 backdrop-blur-md rounded-xl p-10 card-inner-glow">
-          <h2 className="olivera-font">Need assistance?</h2>
+          <h2 className="olivera-font">Help-related Queries</h2>
           <p className="poppins-font">
-            Feel free to reach out to us!
-            <br /> We're here to provide you with more <br />
-            information.
+            Speak to our representative for detailed queries.
           </p>
 
           <div className="nav-btn example-2 form-assist-btn">
@@ -26,17 +24,17 @@ export default function Assistance() {
     `,
               }}
             >
-              Call Us Now
+              Speak with Us
             </button>
           </div>
         </div>
 
         <div className="contact-card-inner bg-white/5 backdrop-blur-md rounded-xl p-10 card-inner-glow">
-          <h2 className="olivera-font">Want to visit us?</h2>
+          <h2 className="olivera-font">On-site Meeting</h2>
           <p className="poppins-font">
-            Vibrant Media Inc. 3rd Floor, Plot # 1-A <br /> 1/6, Block 1
-            Nazimabad, 74600 Karachi,
-            <br /> Pakistan
+            Visit our office located at: <br />
+            Vibrant Media Inc. 3rd Floor, Plot # 1-A 1/6, Block 1 Nazimabad,
+            74600 Karachi, Pakistan
           </p>
 
           <div className="nav-btn example-2 form-assist-btn">

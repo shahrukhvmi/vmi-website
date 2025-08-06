@@ -39,8 +39,8 @@ export default function AboutVideo() {
     <div className="w-[90%] mx-auto max-container-width relative z-10 my-50 about-video-wrap">
       <div className="about-video-heading mb-20">
         <h2 className="olivera-font text-center">
-          Innovate together <br />
-          grow together
+          Aligned Vision <br />
+          Collective Growth
         </h2>
       </div>
 

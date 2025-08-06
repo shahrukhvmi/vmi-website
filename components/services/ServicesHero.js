@@ -12,14 +12,15 @@ export default function ServicesHero() {
         <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 mb-4 z-10 poppins-font">
           We don’t just design
         </span>
-        <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
-          We Shape Brand Identities
+        <h1 className="hero-text z-10 olivera-font poppins-font">
+          Covering All Facets of
+          <br /> Marketing & Design
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
         <p className="mt-4 text-gray-300 text-xl z-10 poppins-font main-banner-para">
-          Vibrant Media Inc. is a digital marketing agency that helps businesses
-          create
-          <br /> data-driven strategies to attract and convert leads.
+          Our scope of work encompasses design, development, and marketing
+          modules,
+          <br /> allowing us to meet strategic goals across industries.
         </p>
 
         {/* <GlowButton /> */}
@@ -38,7 +39,7 @@ export default function ServicesHero() {
     `,
             }}
           >
-            Book A Discovery Call{" "}
+            Talk to Our Team{" "}
             {/* <span>
                   <img src="/btn-icon.svg" />
                 </span> */}

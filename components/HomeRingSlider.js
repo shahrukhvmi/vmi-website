@@ -12,23 +12,23 @@ export default function HomeRingSlider() {
   const data = [
     {
       img: "/service-ring-1.png",
-      title: "1. A free strategy to start!",
-      body: "Before our meeting, complete a form in 5 minutes. Outline goals and audience. We'll discuss outcomes and a plan.",
+      title: "1. Fill Out Our Online Form",
+      body: "Submit your queries, ideas, and requirements through our online form. You’ll be asked for a few necessary details. Ensure you provide only accurate information, so we can respond with clarity and precision.",
     },
     {
       img: "/service-ring-2.png",
-      title: "2. Onboarding",
-      body: "Happy with our strategy? It's time for our 2nd call to onboard you. We'll create milestones and set up your payment plan.",
+      title: "2. Let’s Do Our Work",
+      body: "Our team will review your objectives, scope, and priorities in detail to prepare a quotation.",
     },
     {
       img: "/service-ring-3.png",
-      title: "3. Let the magic happen",
-      body: "We bring your project to life, refining details to ensure it is captivating and impactful. Project design, QA testing, and revisions.",
+      title: "3. Receive Quotation",
+      body: "After we’ve thoroughly evaluated the provided information , we’ll deliver you the quotation, outlining the recommended services, timelines, and estimated investment.",
     },
     {
       img: "/service-ring-4.png",
-      title: "4. Launch & Maintenance",
-      body: "Once approved, we transfer files, give access, set up backups, and prepare for launch. Handover of files and post-delivery support.",
+      title: "4. Confirm and Get Started",
+      body: "As soon as you approve the quotation, we’ll start building, executing, and reporting on your first marketing strategy.",
     },
   ];
 
@@ -75,8 +75,8 @@ export default function HomeRingSlider() {
       <div className="w-6xl mx-auto max-container-width mb-20 z-10 ring-slider-responsive-heading">
         <div className="inner-heading text-center w-full">
           <h2 className="olivera-font">
-            <span className="">We're here to</span> <br />
-            <span className="inner-heading-span">make you win</span>
+            <span className="">Plan Your First</span> <br />
+            <span className="inner-heading-span">Strategy with Us</span>
           </h2>
         </div>
       </div>

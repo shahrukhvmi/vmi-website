@@ -10,35 +10,53 @@ function Creative() {
         <div className="w-6xl mx-auto max-container-width">
           <div className="inner-heading text-center w-full">
             <h2 className="olivera-font">
-              Our creative <br />
-              <span className="inner-heading-span">superpowers!</span>
+              Our Unrestricted <br />
+              <span className="inner-heading-span">Prowess!</span>
             </h2>
           </div>
 
           <div className="creative-menu olivera-font">
             <div className="creative-menu-item">
-              <span className="creative-menu-span">Designing</span>
+              <span className="creative-menu-span">UI/UX Design</span>
               <span className="icon">
                 <img src="/creative-icon-1.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
-              <span className="creative-menu-span">Development</span>
+              <span className="creative-menu-span">Web Development</span>
               <span className="icon">
                 <img src="/creative-icon-2.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
-              <span className="creative-menu-span">Marketing</span>
+              <span className="creative-menu-span">Digital Marketing</span>
               <span className="icon">
                 <img src="/creative-icon-3.png" />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
-              <span className="creative-menu-span">Strategy & Campaigns</span>
+              <span className="creative-menu-span">
+                Brand Design & Management
+              </span>
+              <span className="icon">
+                <img src="/creative-icon-4.png" />
+              </span>
+            </div>
+            <hr className="creative-hr" />
+            <div className="creative-menu-item">
+              <span className="creative-menu-span">Mobile App Development</span>
+              <span className="icon">
+                <img src="/creative-icon-4.png" />
+              </span>
+            </div>
+            <hr className="creative-hr" />
+            <div className="creative-menu-item">
+              <span className="creative-menu-span">
+                Search Engine Optimization
+              </span>
               <span className="icon">
                 <img src="/creative-icon-4.png" />
               </span>

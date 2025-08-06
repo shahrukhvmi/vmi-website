@@ -10,11 +10,13 @@ export default function ContactForm() {
           {/* LEFT TEXT */}
           <div className="contact-left">
             <h2 className="contact-form-heading olivera-font">
-              Start Your Project <br /> with Confidence
+              Get Clear Solutions <br /> for Real Brand Needs
             </h2>
             <p className="description">
-              Share your needs, and we’ll craft a solution. For quotes or
-              questions, contact us—your next move starts here.
+              We don’t work with standard templates or fixed pricing models. All
+              our offerings are tailored to your brand’s specific requirements.
+              Complete our online form to receive clear, customized quotations
+              prepared specifically for you.
             </p>
 
             <div className="contact-info">

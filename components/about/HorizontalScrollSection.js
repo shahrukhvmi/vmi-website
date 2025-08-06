@@ -115,23 +115,21 @@ export default function HorizontalScrollSection() {
           style={{ whiteSpace: "nowrap" }}
         >
           <div className="olivera-font horizontal-text-1 horizontal-remaining-text">
-            Vibrant Media Inc. celebrates
+            Marking
           </div>{" "}
           <div className="olivera-font horizontal-text-2">8+</div>{" "}
           <div className="olivera-font horizontal-text-3 horizontal-remaining-text">
-            years of driving digital{" "}
-            <span className="horizontal-success">success</span> through tailored
-            solutions. From{" "}
-            <span className="horizontal-img-1 relative">websites to</span>{" "}
-            <span className="horizontal-img-2 relative">
-              marketing campaigns
-            </span>
-            , they’ve helped{" "}
+            years of continued{" "}
+            <span className="horizontal-success">success</span> through
+            comprehensive offerings. Delivering{" "}
+            <span className="horizontal-img-1 relative">multifaceted</span>{" "}
+            <span className="horizontal-img-2 relative">services to</span>,
             <div className="inline-block relative me-15">
-              <div className="horizontal-top-brand">top brands</div>{" "}
-              <div className="horizontal-grow">grow</div>
+              <div className="horizontal-top-brand">local and</div>{" "}
+              <div className="horizontal-grow">global</div>
             </div>{" "}
-            with impactful results.
+            clients. We ensure results that not only outperform but also persist
+            over time.
           </div>
         </div>
       </div>

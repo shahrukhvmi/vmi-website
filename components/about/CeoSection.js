@@ -16,9 +16,9 @@ export default function CeoSection() {
   return (
     <section className="relative max-container-width w-6xl mx-auto z-10 ceo-main-wrap">
       <h2 className="olivera-font text-center ceo-font-size mb-30">
-        With our visionary CEO and dynamic COO,
-        <br /> Vibrant Media Inc. thrives on innovation
-        <br /> and a commitment to excellence.
+        Built on the unfaltering leadership of our CEO and the process-oriented
+        mindset of our COO. Setting a legacy of strategic growth and operational
+        excellence.
       </h2>
 
       <div className="ceo-image-main">

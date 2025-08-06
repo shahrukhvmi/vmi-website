@@ -45,8 +45,8 @@ export default function Index() {
         <div className="w-6xl mx-auto max-container-width mb-20 z-10 ring-slider-responsive-heading">
           <div className="inner-heading text-center w-full">
             <h2 className="olivera-font">
-              <span className="">We're here to</span> <br />
-              <span className="inner-heading-span">make you win</span>
+              <span className="">Plan Your First</span> <br />
+              <span className="inner-heading-span">Strategy with Us</span>
             </h2>
           </div>
         </div>
@@ -59,11 +59,13 @@ export default function Index() {
                   <img src="/service-ring-1.png" />
                 </div>
                 <h3 className="mb-4 olivera-font">
-                  1. A free strategy to start!
+                  1. Fill Out Our Online Form
                 </h3>
                 <p className="poppins-font">
-                  Before our meeting, complete a form in 5 minutes. Outline
-                  goals and audience. We'll discuss outcomes and a plan.
+                  Submit your queries, ideas, and requirements through our
+                  online form. You’ll be asked for a few necessary details.
+                  Ensure you provide only accurate information, so we can
+                  respond with clarity and precision.
                 </p>
               </div>
             </div>
@@ -73,10 +75,10 @@ export default function Index() {
                 <div className="flex justify-center">
                   <img src="/service-ring-2.png" />
                 </div>
-                <h3 className="mb-4 olivera-font">2. Onboarding</h3>
+                <h3 className="mb-4 olivera-font">2. Let’s Do Our Work</h3>
                 <p className="poppins-font">
-                  Happy with our strategy? It's time for our 2nd call to onboard
-                  you. We'll create milestones and set up your payment plan.
+                  Our team will review your objectives, scope, and priorities in
+                  detail to prepare a quotation.
                 </p>
               </div>
             </div>
@@ -86,11 +88,11 @@ export default function Index() {
                 <div className="flex justify-center">
                   <img src="/service-ring-3.png" />
                 </div>
-                <h3 className="mb-4 olivera-font">3. Let the magic happen</h3>
+                <h3 className="mb-4 olivera-font">3. Receive Quotation</h3>
                 <p className="poppins-font">
-                  We bring your project to life, refining details to ensure it
-                  is captivating and impactful. Project design, QA testing, and
-                  revisions.
+                  After we’ve thoroughly evaluated the provided information ,
+                  we’ll deliver you the quotation, outlining the recommended
+                  services, timelines, and estimated investment.
                 </p>
               </div>
             </div>
@@ -100,11 +102,12 @@ export default function Index() {
                 <div className="flex justify-center">
                   <img src="/service-ring-4.png" />
                 </div>
-                <h3 className="mb-4 olivera-font">4. Launch & Maintenance</h3>
+                <h3 className="mb-4 olivera-font">
+                  4. Confirm and Get Started
+                </h3>
                 <p className="poppins-font">
-                  Once approved, we transfer files, give access, set up backups,
-                  and prepare for launch. Handover of files and post-delivery
-                  support.
+                  As soon as you approve the quotation, we’ll start building,
+                  executing, and reporting on your first marketing strategy.
                 </p>
               </div>
             </div>
@@ -117,9 +120,10 @@ export default function Index() {
       <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
         <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
-            Your brand deserves more than just a launch,
-            <br /> it deserves lift-off. From strategy to scale, we’re <br />{" "}
-            here to guide every step of your journey.
+            A brand’s success goes beyond the launch. It exists because <br />
+            of continuous efforts for growth, visibility, and conversions.
+            That’s <br />
+            precisely what Vibrant Media Inc. does!
           </h3>
           <div className="hero-btn example-2">
             <button
@@ -136,7 +140,7 @@ export default function Index() {
     `,
               }}
             >
-              Book A Discovery Call{" "}
+              Speak with Us{" "}
             </button>
           </div>
         </div>
@@ -148,11 +152,29 @@ export default function Index() {
       <div className="max-container-width w-6xl mx-auto flex justify-center great-main items-center z-10 relative">
         <div className="great-design-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
-            Great design isn’t just visual — it’s functional,
-            <br /> intentional, and obsessively crafted to move people.
+            The best agency doesn’t deliver more.
+            <br /> It delivers what’s needed.
           </h3>
-          <div className="text-center py-6">
-            <p className="poppins-font">By Vibrant Media</p>
+          {/* Desktop CTA Button */}
+          <div className="flex justify-center mt-3">
+            <div className="nav-btn example-2">
+              <button
+                onClick={() => router.push("/contact-us")}
+                className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
+                style={{
+                  background:
+                    "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
+                  boxShadow: `
+                0 0 100px #9561c540,
+                0 0 40px #9561c550,
+                0 0 80px #9561c570,
+                0 0 120px #9561c530
+              `,
+                }}
+              >
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
       </div>

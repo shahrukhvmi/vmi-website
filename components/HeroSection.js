@@ -16,11 +16,11 @@ export default function HeroSection() {
           ● Available for New Projects
         </span>
         <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
-          ROI-Driven Design and <br /> Development Agency
+          Purposeful Marketing <br /> Across Channels
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>
         <p className="mt-4 text-gray-300 text-xl z-10 poppins-font main-banner-para">
-          We don’t just design, we solve your brand’s biggest challenges
+          Your digital partner for every marketing execution.
         </p>
 
         {/* <GlowButton /> */}
@@ -39,7 +39,7 @@ export default function HeroSection() {
     `,
             }}
           >
-            Book A Discovery Call{" "}
+            Talk to Our Team{" "}
             {/* <span>
                   <img src="/btn-icon.svg" />
                 </span> */}

@@ -15,8 +15,8 @@ function Footer() {
               <img src="/footer-logo.png" />
             </div>
             <p className="mt-6 poppins-font">
-              Enhance your business media experience with our collaborative
-              digital environment. Explore our offerings today.
+              Let’s collaborate for purpose-driven strategies and output! We
+              offer everything your business needs.
             </p>
             <div className="example-2 footer-btn mt-6">
               <button
@@ -33,7 +33,7 @@ function Footer() {
     `,
                 }}
               >
-                Book A Discovery Call{" "}
+                Talk to Our Team{" "}
                 {/* <span>
                   <img src="/btn-icon.svg" />
                 </span> */}

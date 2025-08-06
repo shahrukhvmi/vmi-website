@@ -8,32 +8,25 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    name: "Lucido Colin",
+    name: "Sarah Thawrani",
     role: "Co-founder, Calebrico",
     image: "/dummy-one.png", // replace with actual path
     quote:
-      "It's totally customizable with the theme settings, it's compatible with a tonne of important plugins and the support is outstanding.",
+      "Finally, an agency that understands what the business needs! Vibrant Media Inc.’s emphasis on goal-focused strategies greatly changed the way we marketed our services, and within months, we saw a clear rise in qualified leads. Highly recommended!",
   },
   {
-    name: "Lucido Colin",
+    name: "Mariya Adeel",
     role: "Co-founder, Calebrico",
     image: "/dummy-one.png", // replace with actual path
     quote:
-      "It's totally customizable with the theme settings, it's compatible with a tonne of important plugins and the support is outstanding.",
+      "Vibrant Media Inc. revamped our business website, and we must say the new website was a total game-changer! The color theme, functionality, navigation, everything was perfect! Looking forward to future collaborations.",
   },
   {
-    name: "Lucido Colin",
+    name: "Faizan Masudi",
     role: "Co-founder, Calebrico",
     image: "/dummy-one.png", // replace with actual path
     quote:
-      "It's totally customizable with the theme settings, it's compatible with a tonne of important plugins and the support is outstanding.",
-  },
-  {
-    name: "Lucido Colin",
-    role: "Co-founder, Calebrico",
-    image: "/dummy-one.png", // replace with actual path
-    quote:
-      "It's totally customizable with the theme settings, it's compatible with a tonne of important plugins and the support is outstanding.",
+      "For a year, our social media was stagnant with no engagement. After partnering with Vibrant Media Inc., we not only saw steady growth in followers but also observed genuine audience interaction. It was indeed an achievement.",
   },
   // Add more testimonials as needed
 ];
@@ -70,7 +63,7 @@ export default function TestimonialSlider() {
                     className="object-cover w-full"
                   />
                 </div>
-                <div className="text-[48px] flex flex-col justify-around home-testimonial-text">
+                <div className="text-[33px] flex flex-col justify-around home-testimonial-text">
                   <h3 className="olivera-font">“{t.quote}”</h3>
                   <p className="mt-6 text-sm font-normal poppins-font">
                     <strong>{t.name}</strong> <br />

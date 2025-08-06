@@ -131,13 +131,13 @@ const RingSection = () => {
                 />
               </div>
               <p className="text-white/80 leading-relaxed mt-[-20px] poppins-font">
-                Vibrant Media Inc. is not just a service provider—we're your
-                partner in growth. From trend-sensitive design and cutting-edge
-                development to strategic campaign planning and customized
-                digital marketing, we offer a comprehensive suite of solutions
-                tailored to your unique mission. Whether you're looking to
-                enhance your brand, engage your audience, or scale your
-                business, we're here to turn your vision into reality.
+                As a Pakistan-based digital marketing agency, we design and
+                implement comprehensive, objective-oriented marketing strategies
+                for all local businesses. Our commitment to strategizing unique
+                marketing solutions for every brand enables it to grow and set a
+                well-known presence in the digital realm. Our marketing
+                experience extends to international markets as well, giving us a
+                recognized status regionally and globally.
               </p>
             </div>
 

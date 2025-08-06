@@ -113,9 +113,7 @@ export default function services() {
       <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main pb-70 pt-50 z-10 relative service-brand-responsive">
         <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
-            Your brand deserves more than just a launch,
-            <br /> it deserves lift-off. From strategy to scale, we’re <br />{" "}
-            here to guide every step of your journey.
+            We build what your brand really needs <span>.</span>
           </h3>
           <div className="hero-btn example-2">
             <button
@@ -132,7 +130,7 @@ export default function services() {
     `,
               }}
             >
-              Book A Discovery Call{" "}
+              Get a Quote{" "}
             </button>
           </div>
         </div>

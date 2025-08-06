@@ -28,7 +28,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-md border border-white/20 shadow-glow rounded-full z-50 flex justify-between items-center w-full max-w-6xl px-4 overflow-hidden max-container-width">
+      <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-md border border-white/20 shadow-glow rounded-full z-50 flex justify-between items-center w-6xl ring-cursor max-container-width overflow-hidden">
         <svg className="shadow-svg">
           <filter id="displacementFilter">
             <feImage href="/liquid.png" preserveAspectRatio="none" />
