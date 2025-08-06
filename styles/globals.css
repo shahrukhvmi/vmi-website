@@ -1671,8 +1671,6 @@ label {
 }
 .portfolio-main-wrapper {
   margin-top: 150px;
-  position: relative;
-  z-index: 99;
 }
 /* ================================ Portfolio page css End ============================= */
 
@@ -1913,10 +1911,10 @@ label {
     padding-top: 34%;
   }
   .ring-wrap-main::before {
-    background-size: 75%;
+    background-size: 52%;
   }
   .service-ring-card {
-    width: 44%;
+    width: 31%;
   }
   .inner-heading-top {
     margin-left: -90px;

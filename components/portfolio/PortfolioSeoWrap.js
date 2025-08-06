@@ -19,7 +19,7 @@ export default function PortfolioSeoWrap() {
   ];
 
   return (
-    <section className="portfolio-main-wrapper" id="portfolio">
+    <section className="portfolio-main-wrapper relative z-10" id="portfolio">
       <div className="w-6xl mx-auto max-container-width">
         <div className="portfolio-inner-heading text-center w-full">
           <h2 className="olivera-font">
