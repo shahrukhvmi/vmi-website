@@ -48,7 +48,8 @@ export default function Bridle360() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role: <span className="font-bold">Visual Designer</span>
+                  Scope:{" "}
+                  <span className="font-bold">Social Media Post Design</span>
                 </p>
               </div>
 
@@ -57,7 +58,7 @@ export default function Bridle360() {
                 <p className="poppins-font text-[18px]">
                   Tools Used:{" "}
                   <span className="font-bold">
-                    Adobe Photoshop & Illustrator
+                    Adobe Photoshop and Illustrator
                   </span>
                 </p>
               </div>
@@ -65,7 +66,7 @@ export default function Bridle360() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">UAE</span>
                 </p>
               </div>
 
@@ -76,16 +77,23 @@ export default function Bridle360() {
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  For Bridle 360, we developed a series of high-impact social
+                  media designs focused on simplifying complex platform
+                  management for digital marketers. Each post was visually
+                  structured to communicate clarity, efficiency, and brand
+                  reliability.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  Our creative direction centered on making content that not
+                  only stands out visually but also educates and engages the
+                  audience through clean layouts, vibrant branding, and relevant
+                  platform-specific visuals.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  This campaign effectively combined strategic messaging with
+                  eye-catching design—delivering posts that resonate with the
+                  target audience and support Bridle 360’s digital growth
+                  objectives.
                 </p>
               </div>
             </div>

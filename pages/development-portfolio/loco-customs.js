@@ -48,43 +48,46 @@ export default function LocoCustoms() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role:{" "}
-                  <span className="font-bold">Designer & Developer</span>
+                  Scope:{" "}
+                  <span className="font-bold">
+                    Full Custom Website Design and Development
+                  </span>
                 </p>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Tools Used:{" "}
-                  <span className="font-bold">Figma & Wordpress</span>
-                </p>
-              </div>
-
-              <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
-                <img src="/tools.svg" />
-                <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">UK</span>
                 </p>
               </div>
 
               <div className="bg-white/5 border border-white/10 p-5 rounded-xl text-sm font-light text-white/90 shadow-sm space-y-3">
                 {/* Top Line and Heading */}
-                <h3 className="text-white poppins-font text-[20px]">Details</h3>
+                <h3 className="text-white poppins-font text-[20px]">Brief</h3>
                 <hr className="border-t border-white/20 rounded-full mb-2" />
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  Loco’s Customs, a Manchester based car wrapping and window
+                  tinting expert, approached us to build a complete digital
+                  presence that reflects their bold, high performance service
+                  offering. We handled both the design and development of a
+                  custom website that not only showcases their work but also
+                  drives inbound leads and appointments.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  The design phase focused on a sleek, automotive inspired
+                  aesthetic with impactful visuals, sharp layouts, and strong
+                  CTAs. We crafted each page in Figma with attention to flow,
+                  user engagement, and SEO friendly structure. The development
+                  followed on WordPress, ensuring fast loading, mobile
+                  responsiveness, and easy content updates.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  The end result is a high converting website that’s fast,
+                  modern, and perfectly aligned with Loco’s brand identity and
+                  business goals.
                 </p>
               </div>
             </div>

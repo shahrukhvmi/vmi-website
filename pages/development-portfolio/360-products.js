@@ -48,43 +48,46 @@ export default function ThreeSixtyProducts() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role:{" "}
-                  <span className="font-bold">Designer & Developer</span>
+                  Scope:{" "}
+                  <span className="font-bold">
+                    Website Design and Development
+                  </span>
                 </p>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Tools Used:{" "}
-                  <span className="font-bold">Figma & Wordpress</span>
-                </p>
-              </div>
-
-              <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
-                <img src="/tools.svg" />
-                <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">Canada</span>
                 </p>
               </div>
 
               <div className="bg-white/5 border border-white/10 p-5 rounded-xl text-sm font-light text-white/90 shadow-sm space-y-3">
                 {/* Top Line and Heading */}
-                <h3 className="text-white poppins-font text-[20px]">Details</h3>
+                <h3 className="text-white poppins-font text-[20px]">Brief</h3>
                 <hr className="border-t border-white/20 rounded-full mb-2" />
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  360 Products, a Canada based digital growth consultancy,
+                  collaborated with us to create a fully custom website that
+                  presents their services with clarity, precision, and visual
+                  energy. The objective was to design a user friendly platform
+                  that communicates their 360 degree approach to marketing and
+                  optimization.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  We designed the full interface in Figma, focusing on clean
+                  layouts, playful infographics, and a visual flow that guides
+                  users through their offerings. The design was then brought to
+                  life through WordPress development, ensuring performance,
+                  responsiveness, and easy backend management.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  From animated charts to modular content sections, every
+                  element was crafted to elevate the user experience while
+                  keeping the brand identity sharp and modern. The final website
+                  speaks to innovation, strategy, and measurable results.
                 </p>
               </div>
             </div>

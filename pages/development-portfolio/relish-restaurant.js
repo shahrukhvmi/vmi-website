@@ -48,43 +48,47 @@ export default function RelishRestaurant() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role:{" "}
-                  <span className="font-bold">Designer & Developer</span>
+                  Scope:{" "}
+                  <span className="font-bold">
+                    Website Design and Development
+                  </span>
                 </p>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Tools Used:{" "}
-                  <span className="font-bold">Figma & Wordpress</span>
-                </p>
-              </div>
-
-              <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
-                <img src="/tools.svg" />
-                <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">KSA</span>
                 </p>
               </div>
 
               <div className="bg-white/5 border border-white/10 p-5 rounded-xl text-sm font-light text-white/90 shadow-sm space-y-3">
                 {/* Top Line and Heading */}
-                <h3 className="text-white poppins-font text-[20px]">Details</h3>
+                <h3 className="text-white poppins-font text-[20px]">Brief</h3>
                 <hr className="border-t border-white/20 rounded-full mb-2" />
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  Relish Restaurant, a fine dining establishment based in Saudi
+                  Arabia, approached us to create an elegant and inviting
+                  website that captures the essence of their premium culinary
+                  experience. The objective was to deliver a digital presence
+                  that blends rich visuals with seamless functionality, making
+                  it easy for customers to explore the menu, view the gallery,
+                  and book a table.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  We crafted a luxurious and visually immersive design in Figma,
+                  using dark tones, appetizing imagery, and refined typography.
+                  The site was developed in WordPress to ensure easy updates,
+                  mobile responsiveness, and smooth user navigation.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  From homepage storytelling to reservation flow and visual
+                  consistency, every element was designed to reflect the
+                  sophistication and quality of the Relish brand. The final
+                  website offers a memorable online experience aligned with the
+                  restaurant’s high end reputation.
                 </p>
               </div>
             </div>

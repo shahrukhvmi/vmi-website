@@ -48,43 +48,48 @@ export default function Ferrara() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role:{" "}
-                  <span className="font-bold">Designer & Developer</span>
+                  Scope:{" "}
+                  <span className="font-bold">
+                    Website Design and Development
+                  </span>
                 </p>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Tools Used:{" "}
-                  <span className="font-bold">Figma & Wordpress</span>
-                </p>
-              </div>
-
-              <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
-                <img src="/tools.svg" />
-                <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">Canada</span>
                 </p>
               </div>
 
               <div className="bg-white/5 border border-white/10 p-5 rounded-xl text-sm font-light text-white/90 shadow-sm space-y-3">
                 {/* Top Line and Heading */}
-                <h3 className="text-white poppins-font text-[20px]">Details</h3>
+                <h3 className="text-white poppins-font text-[20px]">Brief</h3>
                 <hr className="border-t border-white/20 rounded-full mb-2" />
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  Ferrara, a Canadian landscaping and garden design company,
+                  approached us to create a clean and elegant digital presence
+                  that aligns with their natural and refined aesthetic. The goal
+                  was to build a visually appealing website that showcases their
+                  services while instilling a sense of calm and trust in their
+                  audience.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  We designed the website in Figma with a soft, nature-inspired
+                  palette and smooth scrolling transitions to reflect the
+                  essence of their work. The development was executed in
+                  WordPress, ensuring ease of updates and responsiveness across
+                  all devices.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  From layout to interaction, the entire user journey was
+                  thoughtfully designed to present their services in a
+                  minimalist yet engaging manner—highlighting their portfolio,
+                  expertise, and brand values. The final product not only
+                  captures Ferrara’s identity but also provides a seamless and
+                  visually enriching experience for visitors.
                 </p>
               </div>
             </div>

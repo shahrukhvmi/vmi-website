@@ -13,6 +13,9 @@
     --foreground: #ededed; 
   }
 } */
+ html {
+  scroll-behavior: smooth;
+}
 
 body {
   /* background: var(--background); */
@@ -811,7 +814,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   position: absolute;
   left: 50%;
   top: 41%;
-  width: 250px;
+  width: 200px;
   height: 400px;
   transform: translate(-50%, -60%) rotate(0deg);
   background-image: url("./../public/great-design-logo.png");
@@ -1170,7 +1173,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .horizontal-main-wrap:before {
   content: "";
-  background-image: url("./../public/circle.png");
+  background-image: url("./../public/new_circle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 2000px;
@@ -1182,7 +1185,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .horizontal-main-wrap:after {
   content: "";
-  background-image: url("./../public/circle.png");
+  background-image: url("./../public/new_circle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 2000px;
@@ -1264,7 +1267,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .service-horizontal-main-wrap:before {
   content: "";
-  background-image: url("./../public/circle.png");
+  background-image: url("./../public/new_circle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 2000px;
@@ -1276,7 +1279,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .service-horizontal-main-wrap:after {
   content: "";
-  background-image: url("./../public/circle.png");
+  background-image: url("./../public/new_circle.png");
   background-repeat: no-repeat;
   position: absolute;
   width: 2000px;
@@ -1672,6 +1675,22 @@ label {
 .portfolio-main-wrapper {
   margin-top: 150px;
 }
+.single-portfolio-left img {
+  width: 100%;
+}
+.portfolio-all-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-single a{
+  width: 40%;
+}
+.porfolio-alone a{
+  width: 40%;
+}
+.portfolio-single img {
+  width: 100%;
+}
 /* ================================ Portfolio page css End ============================= */
 
 .mobile-ring-slider {
@@ -1679,6 +1698,18 @@ label {
 }
 .desktop-ring-slider {
   display: block;
+}
+.footer-logo-img img {
+  width: 230px;
+}
+.desktop-video {
+  display: block;
+}
+.mobile-video {
+  display: none;
+}
+.porfolio-main-section {
+  height: 100vh;
 }
 
 
@@ -1809,7 +1840,7 @@ label {
     padding: 16px 32px;
   }
   .home-testimonial-text h3 {
-    font-size: 44px;
+    font-size: 34px;
   }
   .home-testimonial-text p {
     font-size: 22px;
@@ -1920,10 +1951,39 @@ label {
     margin-left: -90px;
   }
   .hero-text {
-    font-size: 58px;
+    font-size: 54px;
   }
   .service-horizontal-heading {
-    font-size: 78px;
+    font-size: 70px;
+  }
+  .inner-heading h2 {
+    font-size: 80px;
+  }
+  .center-content h3 {
+    font-size: 40px;
+  }
+  .home-testimonial-text h3 {
+    font-size: 28px;
+  }
+  .horizontal-remaining-text {
+    font-size: 50px;
+  }
+  .horizontal-text-2 {
+    font-size: 254px;
+  }
+  .service-slider-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-slider-img-wrapper img {
+    width: 80%;
+  }
+  .portfolio-inner-heading h2 {
+    font-size: 80px;
+  }
+  .index-main-padding {
+    padding-top: 250px;
   }
 }
 @media (max-width: 1024px) {
@@ -2124,9 +2184,9 @@ label {
   .detail-portfolio-image-wrapper img{
     width: 100%;
   }
-  .detail-portfolio-image-wrapper {
+  /* .detail-portfolio-image-wrapper {
     margin-bottom: 74px;
-  }
+  } */
   .single-portfolio-heading {
     line-height: 1;
     margin-top: 20px;
@@ -2148,6 +2208,24 @@ label {
   }
   .contact-left, .contact-right {
     width: 100%;
+  }
+  .porfolio-alone a{
+    width: 100%;
+  }
+  .portfolio-single a {
+    width: 100%;
+  }
+  .mobile-burger-icon {
+    margin-right: 20px;
+    display: flex;
+  }
+  .mobile-nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-links {
+    margin-bottom: 6vh;
   }
 }
 
@@ -2329,7 +2407,7 @@ label {
     margin-bottom: 50px;
   }
   .contact-form-heading {
-    font-size: 50px;
+    font-size: 38px;
   }
   .contact-form-heading br {
     display: none;
@@ -2362,5 +2440,49 @@ label {
   }
   .portfolio-single{
     width: 100%;
+  }
+  .mobile-burger-icon {
+    margin-right: 20px;
+    display: flex;
+  }
+  .mobile-nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mobile-links {
+    margin-bottom: 6vh;
+  }
+  .great-design-wrap::before {
+    width: 127px;
+    height: 264px;
+    top: 260px;
+  }
+  .footer-logo-img img {
+    width: 192px;
+    margin-top: 36px;
+  }
+  .ceo-font-size {
+    font-size: 28px;
+  }
+  .about-hero-section {
+    padding-top: 160px;
+  }
+  .contact-card-inner h2{
+    font-size: 38px;
+  }
+  .contact-bottom-margin {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 414px) {
+  .creative-menu-item {
+    padding-right: 8rem;
+  }
+  .technologia-logos{
+    margin-bottom: 100px;
+  }
+  .about-last-quote {
+    padding-bottom: 0px;
   }
 }

@@ -48,7 +48,8 @@ export default function AailaFoods() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role: <span className="font-bold">Visual Designer</span>
+                  Scope:{" "}
+                  <span className="font-bold">Social Media Post Design</span>
                 </p>
               </div>
 
@@ -57,7 +58,7 @@ export default function AailaFoods() {
                 <p className="poppins-font text-[18px]">
                   Tools Used:{" "}
                   <span className="font-bold">
-                    Adobe Photoshop & Illustrator
+                    Adobe Photoshop and Illustrator
                   </span>
                 </p>
               </div>
@@ -65,7 +66,7 @@ export default function AailaFoods() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">UAE</span>
                 </p>
               </div>
 
@@ -76,16 +77,24 @@ export default function AailaFoods() {
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
+                  For Aaila Foods, we created a culturally resonant and visually
+                  appetizing set of social media designs that focused on the
+                  emotional connection between food, family, and memories. From
+                  highlighting the joy of sharing parathas to playful, relatable
+                  taglines, every element was designed to spark nostalgia and
+                  hunger at once.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  Our visuals combined real-life photography with clean layouts
+                  and product-forward messaging to ensure the food remained the
+                  hero of each post. We aimed to increase brand recall, drive
+                  product interest, and foster community engagement across
                   platforms.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  This campaign reflected our ability to align design with
+                  culinary branding while tapping into the heart of consumer
+                  behavior: taste, emotion, and togetherness.
                 </p>
               </div>
             </div>

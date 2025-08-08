@@ -8,25 +8,28 @@ import "swiper/css/pagination";
 
 const testimonials = [
   {
-    name: "Sarah Thawrani",
-    role: "Co-founder, Calebrico",
-    image: "/dummy-one.png", // replace with actual path
+    name: "Dr. Lee Hutchinson",
+    role: "Group Chief Executive Officer, Eaton SAKS International Group",
+    country: "United Arab Emirates",
+    image: "/testi-1.png", // replace with actual path
     quote:
-      "Finally, an agency that understands what the business needs! Vibrant Media Inc.’s emphasis on goal-focused strategies greatly changed the way we marketed our services, and within months, we saw a clear rise in qualified leads. Highly recommended!",
+      "Working with Vibrant Media Inc was transformative. They took my chaotic ideas and turned them into a powerful, cohesive brand and a world-class digital experience. From bold design to strategic execution, every detail was intentional. VMI isn't just creative, they’re commercially sharp and truly collaborative. Highly recommended.",
   },
   {
-    name: "Mariya Adeel",
-    role: "Co-founder, Calebrico",
-    image: "/dummy-one.png", // replace with actual path
+    name: "Lisa Andria",
+    role: "Owner & Director, Ladies Who Leap Long Beach",
+    country: "CA",
+    image: "/testi-2.png", // replace with actual path
     quote:
-      "Vibrant Media Inc. revamped our business website, and we must say the new website was a total game-changer! The color theme, functionality, navigation, everything was perfect! Looking forward to future collaborations.",
+      "Vibrant Media delivered an exceptional experience from start to finish. The team is professional, approachable, and truly understands how to bring a vision to life. They created a visually stunning and strategically sound website, explaining every recommendation with clarity and purpose. I look forward to continuing our collaboration. Highly recommended.",
   },
   {
-    name: "Faizan Masudi",
-    role: "Co-founder, Calebrico",
-    image: "/dummy-one.png", // replace with actual path
+    name: "Sophie G.",
+    role: "Owner & Director, Reef Shield",
+    country: "France",
+    image: "/testi-3.png", // replace with actual path
     quote:
-      "For a year, our social media was stagnant with no engagement. After partnering with Vibrant Media Inc., we not only saw steady growth in followers but also observed genuine audience interaction. It was indeed an achievement.",
+      "I was looking for a team that could truly understand my brand and help me build something meaningful, and Vibrant Media delivered exactly that. From designing my logo and brand identity to building a beautiful website and handling SEO, they managed everything with creativity and care. The results speak for themselves. I’ve already seen growth and better visibility online. Truly grateful for their support and expertise.",
   },
   // Add more testimonials as needed
 ];
@@ -56,18 +59,19 @@ export default function TestimonialSlider() {
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-                <div className="w-[100%] testimonial-img-width rounded-lg overflow-hidden shadow-lg">
+                <div className="w-[100%] testimonial-img-width rounded-lg overflow-hidden">
                   <img
                     src={t.image}
                     alt={t.name}
                     className="object-cover w-full"
                   />
                 </div>
-                <div className="text-[33px] flex flex-col justify-around home-testimonial-text">
+                <div className="text-[28px] flex flex-col justify-around home-testimonial-text">
                   <h3 className="olivera-font">“{t.quote}”</h3>
                   <p className="mt-6 text-sm font-normal poppins-font">
                     <strong>{t.name}</strong> <br />
-                    {t.role}
+                    {t.role} <br />
+                    {t.country}
                   </p>
                 </div>
               </div>

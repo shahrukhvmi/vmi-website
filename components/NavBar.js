@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -43,11 +44,16 @@ export default function NavBar() {
         </svg>
 
         <div
-          className="font-semibold text-white text-lg tracking-wide"
+          className="font-semibold text-white text-lg tracking-wide ml-3"
           onClick={() => setMobileOpen(false)}
         >
           <Link href="/">
-            <img src="/logo.png" alt="Vibrant Media Logo" />
+            <Image
+              src="/footer-logo.png"
+              alt="Vibrant Media Logo"
+              width={130}
+              height={100}
+            />
           </Link>
         </div>
 
@@ -93,7 +99,7 @@ export default function NavBar() {
         </div>
 
         {/* Mobile Hamburger Icon */}
-        <div className="md:hidden text-white text-3xl z-50">
+        <div className="md:hidden text-white text-3xl z-50 mobile-burger-icon">
           <button onClick={() => setMobileOpen(!mobileOpen)}>
             {mobileOpen ? <FiX /> : <FiMenu />}
           </button>
@@ -102,11 +108,11 @@ export default function NavBar() {
 
       {/* Fullscreen Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 w-full h-screen bg-[#1b1b2f] z-40 transition-transform duration-300 ease-in-out flex items-center justify-center pt-30 ${
+        className={`fixed top-0 left-0 w-full h-screen bg-[#1b1b2f] z-40 transition-transform duration-300 ease-in-out flex items-center justify-center ${
           mobileOpen ? "translate-x-0" : "translate-x-full"
         } md:hidden`}
       >
-        <div className="p-6 h-full">
+        <div className="p-6 h-full mobile-nav-wrapper">
           {/* Close button top-right */}
           {/* <div className="flex justify-end">
             <button
@@ -118,13 +124,13 @@ export default function NavBar() {
           </div> */}
 
           {/* Nav links center */}
-          <div className="flex flex-col items-center space-y-6 text-white mt-10">
+          <div className="flex flex-col items-center space-y-6 text-white">
             {navItems.map((item, i) => (
               <Link
                 key={i}
                 href={item.url}
-                className={`text-xl ${
-                  activeIdx === i ? "text-vibrant" : "text-white"
+                className={`text-2xl mobile-links poppins-font ${
+                  activeIdx === i ? "footer-active" : "text-white"
                 }`}
                 onClick={() => {
                   setActiveIdx(i);
@@ -134,27 +140,27 @@ export default function NavBar() {
                 {item.label}
               </Link>
             ))}
-          </div>
 
-          {/* CTA button bottom */}
-          <div className="flex justify-center">
-            <button
-              onClick={() => {
-                router.push("/contact-us");
-                setMobileOpen(false);
-              }}
-              className="mt-6 py-2 px-6 text-white rounded-full text-lg"
-              style={{
-                background:
-                  "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
-                boxShadow: `
+            {/* CTA button bottom */}
+            <div className="flex justify-center">
+              <button
+                onClick={() => {
+                  router.push("/contact-us");
+                  setMobileOpen(false);
+                }}
+                className="mt-6 py-2 px-6 text-white rounded-full text-lg"
+                style={{
+                  background:
+                    "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
+                  boxShadow: `
             0 0 60px #9561c540,
             0 0 30px #9561c550
           `,
-              }}
-            >
-              Get Started
-            </button>
+                }}
+              >
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Assistance() {
   return (
-    <div className="w-6xl mx-auto max-container-width relative z-10 mb-30">
+    <div className="w-6xl mx-auto max-container-width relative z-10 mb-30 contact-bottom-margin">
       <div className="contact-card-wrap flex relative z-10">
         <div className="contact-card-inner bg-white/5 backdrop-blur-md rounded-xl p-10 card-inner-glow">
           <h2 className="olivera-font">Help-related Queries</h2>

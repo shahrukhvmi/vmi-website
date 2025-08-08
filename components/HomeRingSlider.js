@@ -1,13 +1,15 @@
-// components/RingSlider.jsx
 "use client";
-import { useEffect, useRef } from "react";
+
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 gsap.registerPlugin(ScrollTrigger);
 
 export default function HomeRingSlider() {
   const containerRef = useRef(null);
   const cardsRef = useRef([]);
+  const [isDesktop, setIsDesktop] = useState(null); // prevent SSR mismatch
 
   const data = [
     {
@@ -32,7 +34,20 @@ export default function HomeRingSlider() {
     },
   ];
 
+  // 🟡 Only run animations on desktop
   useEffect(() => {
+    const checkScreen = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
+
+  useEffect(() => {
+    if (!isDesktop) return;
+
     const container = containerRef.current;
 
     gsap.set(cardsRef.current, { yPercent: 100, opacity: 0 });
@@ -68,7 +83,9 @@ export default function HomeRingSlider() {
     });
 
     return () => ScrollTrigger.getAll().forEach((t) => t.kill());
-  }, []);
+  }, [isDesktop]);
+
+  if (isDesktop === null || !isDesktop) return null; // 🔒 SSR safe & skip on mobile
 
   return (
     <div className="desktop-ring-slider">
@@ -92,7 +109,7 @@ export default function HomeRingSlider() {
                 className="absolute service-ring-card backdrop-blur-[20px] opacity-0"
               >
                 <div className="flex justify-center">
-                  <img src={item?.img} />
+                  <img src={item.img} />
                 </div>
                 <h3 className="mb-4 olivera-font">{item.title}</h3>
                 <p className="poppins-font">{item.body}</p>

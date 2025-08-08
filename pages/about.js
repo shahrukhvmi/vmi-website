@@ -19,7 +19,7 @@ export default function about() {
 
       <AboutVideo />
 
-      <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
+      <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative about-last-quote">
         <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
             Our vision lies in our clients’ success and goal fulfillment. <br />{" "}

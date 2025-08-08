@@ -10,16 +10,13 @@ export default function PortfolioSeoWrap() {
     "/seo-2.png",
     "/seo-3.png",
     "/seo-4.png",
-    "/seo-5.png",
-    "/seo-6.png",
-    "/seo-7.png",
-    "/seo-8.png",
-    "/seo-9.png",
-    "/seo-10.png",
   ];
 
   return (
-    <section className="portfolio-main-wrapper relative z-10" id="portfolio">
+    <section
+      className="portfolio-main-wrapper relative z-10 scroll-mt-40"
+      id="seo"
+    >
       <div className="w-6xl mx-auto max-container-width">
         <div className="portfolio-inner-heading text-center w-full">
           <h2 className="olivera-font">

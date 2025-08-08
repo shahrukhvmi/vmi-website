@@ -2,6 +2,7 @@ import React from "react";
 import RingSlider from "./RingSlider";
 import RingSliderTwo from "./RingSliderTwo";
 import HomeRingSlider from "./HomeRingSlider";
+import Image from "next/image";
 
 function Creative() {
   return (
@@ -19,21 +20,21 @@ function Creative() {
             <div className="creative-menu-item">
               <span className="creative-menu-span">UI/UX Design</span>
               <span className="icon">
-                <img src="/creative-icon-1.png" />
+                <Image src="/creative-icon-1.png" width={150} height={150} />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Web Development</span>
               <span className="icon">
-                <img src="/creative-icon-2.png" />
+                <Image src="/creative-icon-2.png" width={150} height={150} />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Digital Marketing</span>
               <span className="icon">
-                <img src="/creative-icon-3.png" />
+                <Image src="/creative-icon-3.png" width={150} height={150} />
               </span>
             </div>
             <hr className="creative-hr" />
@@ -42,14 +43,14 @@ function Creative() {
                 Brand Design & Management
               </span>
               <span className="icon">
-                <img src="/creative-icon-4.png" />
+                <Image src="/creative-icon-5.png" width={150} height={150} />
               </span>
             </div>
             <hr className="creative-hr" />
             <div className="creative-menu-item">
               <span className="creative-menu-span">Mobile App Development</span>
               <span className="icon">
-                <img src="/creative-icon-4.png" />
+                <Image src="/creative-icon-4.png" width={150} height={150} />
               </span>
             </div>
             <hr className="creative-hr" />
@@ -58,7 +59,7 @@ function Creative() {
                 Search Engine Optimization
               </span>
               <span className="icon">
-                <img src="/creative-icon-4.png" />
+                <Image src="/creative-icon-6.png" width={150} height={150} />
               </span>
             </div>
           </div>

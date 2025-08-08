@@ -1,8 +1,20 @@
+"use client";
+
 import React, { useEffect, useRef, useState } from "react";
 
 export default function AboutVideo() {
   const videoRef = useRef(null);
-  const [scale, setScale] = useState(0.6); // Initial small size
+  const [scale, setScale] = useState(0.6);
+  const [isMobile, setIsMobile] = useState(null); // null = prevent SSR mismatch
+
+  useEffect(() => {
+    const checkDevice = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkDevice();
+    window.addEventListener("resize", checkDevice);
+    return () => window.removeEventListener("resize", checkDevice);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -10,16 +22,10 @@ export default function AboutVideo() {
 
       const rect = videoRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
-
-      // Distance of video center from viewport center
       const distanceToCenter = Math.abs(
         rect.top + rect.height / 2 - windowHeight / 2
       );
-
-      // Max distance at which scaling starts
       const maxDistance = windowHeight / 2;
-
-      // Map distance to a scale factor between 0.6 and 1
       const progress = Math.max(
         0,
         Math.min(1, 1 - distanceToCenter / maxDistance)
@@ -30,10 +36,11 @@ export default function AboutVideo() {
     };
 
     const onScroll = () => requestAnimationFrame(handleScroll);
-
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  if (isMobile === null) return null; // Prevent SSR flicker
 
   return (
     <div className="w-[90%] mx-auto max-container-width relative z-10 my-50 about-video-wrap">
@@ -47,18 +54,27 @@ export default function AboutVideo() {
       <div
         ref={videoRef}
         className="relative group overflow-hidden rounded-xl about-video-inner mx-auto transition-transform duration-300 ease-out"
-        style={{
-          transform: `scale(${scale})`,
-        }}
+        style={{ transform: `scale(${scale})` }}
       >
-        <video
-          src="/vmi-video.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-auto grayscale transition-all duration-500 group-hover:grayscale-0"
-        />
+        {isMobile ? (
+          <video
+            src="/vmi-video-mobile.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-auto grayscale transition-all duration-500 group-hover:grayscale-0"
+          />
+        ) : (
+          <video
+            src="/vmi-video.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-auto grayscale transition-all duration-500 group-hover:grayscale-0"
+          />
+        )}
       </div>
     </div>
   );

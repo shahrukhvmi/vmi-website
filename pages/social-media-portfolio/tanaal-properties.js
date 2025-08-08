@@ -48,7 +48,8 @@ export default function TanaalProperties() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role: <span className="font-bold">Visual Designer</span>
+                  Scope:{" "}
+                  <span className="font-bold">Social Media Post Design</span>
                 </p>
               </div>
 
@@ -57,7 +58,7 @@ export default function TanaalProperties() {
                 <p className="poppins-font text-[18px]">
                   Tools Used:{" "}
                   <span className="font-bold">
-                    Adobe Photoshop & Illustrator
+                    Adobe Photoshop and Illustrator
                   </span>
                 </p>
               </div>
@@ -65,7 +66,7 @@ export default function TanaalProperties() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">UAE</span>
                 </p>
               </div>
 
@@ -76,16 +77,23 @@ export default function TanaalProperties() {
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  For Tanaal Properties, we developed a sleek series of social
+                  media visuals tailored to the real estate market in the UAE.
+                  The primary focus was on promoting luxury properties, app
+                  launch updates, and the platform's simplified renting
+                  experience.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  Each design was carefully curated to highlight property value,
+                  tech-driven convenience, and the brand’s modern identity. From
+                  showcasing app interfaces to high-rise luxury visuals, we
+                  ensured each post resonated with the high-end clientele and
+                  drove app interest and inquiries.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  This project reflects our expertise in blending clean real
+                  estate aesthetics with actionable visual storytelling that
+                  speaks directly to the market’s expectations.
                 </p>
               </div>
             </div>

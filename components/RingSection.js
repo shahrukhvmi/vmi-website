@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useRef, useEffect } from "react";
 
 const RingSection = () => {
@@ -124,10 +125,12 @@ const RingSection = () => {
             {/* Left Content */}
             <div className="text-center md:text-left ring-left-width">
               <div className="ml-[0px] md:ml-[-60px] mb-4">
-                <img
+                <Image
                   src="/second-logo.png"
                   alt="Logo"
                   className="second-ring-logo-responsive"
+                  width={250}
+                  height={250}
                 />
               </div>
               <p className="text-white/80 leading-relaxed mt-[-20px] poppins-font">
@@ -143,7 +146,12 @@ const RingSection = () => {
 
             {/* Right Graphic */}
             <div className="relative flex justify-center items-center ring-left-width">
-              <img src="/second-right.png" alt="Decorative Graphic" />
+              <Image
+                src="/second-right.png"
+                alt="Decorative Graphic"
+                width={500}
+                height={500}
+              />
             </div>
           </div>
         </div>

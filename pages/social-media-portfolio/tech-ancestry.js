@@ -48,7 +48,8 @@ export default function TechAncestry() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role: <span className="font-bold">Visual Designer</span>
+                  Scope:{" "}
+                  <span className="font-bold">Social Media Post Design</span>
                 </p>
               </div>
 
@@ -57,7 +58,7 @@ export default function TechAncestry() {
                 <p className="poppins-font text-[18px]">
                   Tools Used:{" "}
                   <span className="font-bold">
-                    Adobe Photoshop & Illustrator
+                    Adobe Photoshop and Illustrator
                   </span>
                 </p>
               </div>
@@ -65,7 +66,7 @@ export default function TechAncestry() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">USA</span>
                 </p>
               </div>
 
@@ -76,16 +77,24 @@ export default function TechAncestry() {
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  For Tech Ancestry, we crafted a compelling series of social
+                  media visuals tailored to elevate brand awareness and online
+                  engagement. Each post was designed to grab attention instantly
+                  while reinforcing core business messages related to digital
+                  growth and SEO visibility.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  Our goal was to ensure every visual not only stood out in
+                  crowded feeds but also contributed to meaningful engagement by
+                  aligning content with the company’s services and marketing
+                  goals. This included bold typography, brand-consistent colors,
+                  and strategic messaging to drive interaction and website
+                  visits.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  This campaign demonstrated our ability to merge creativity
+                  with strategy—designing posts that do more than look good;
+                  they perform.
                 </p>
               </div>
             </div>

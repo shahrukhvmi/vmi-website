@@ -34,14 +34,14 @@ export default function Ravvrank() {
               </span>
               <div className="portfolio-single-title olivera-font mt-4 mb-6">
                 <h1 className="text-[68px] leading-none single-portfolio-heading">
-                  Ravvrank.co
+                  RevvRank
                 </h1>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/client.svg" />
                 <p className="poppins-font text-[18px]">
-                  Client: <span className="font-bold">Ravvrank.co</span>
+                  Client: <span className="font-bold">RevvRank</span>
                 </p>
               </div>
 
@@ -57,7 +57,7 @@ export default function Ravvrank() {
                 <p className="poppins-font text-[18px]">
                   Tools Used:{" "}
                   <span className="font-bold">
-                    Adobe Photoshop & Illustrator
+                    Adobe Photoshop and Illustrator
                   </span>
                 </p>
               </div>
@@ -65,7 +65,7 @@ export default function Ravvrank() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">1 to 2 Months</span>
+                  Country: <span className="font-bold">USA</span>
                 </p>
               </div>
 
@@ -76,16 +76,24 @@ export default function Ravvrank() {
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This initiative empowered us to fully embrace the creation of
-                  vibrant, dynamic visuals while establishing a robust design
-                  framework that seamlessly adapts across various digital
-                  platforms.
+                  For RevvRank, we executed a powerful series of visually
+                  compelling social media posts focused on delivering SEO
+                  education and awareness. The aim was to blend creativity with
+                  information—making each post a scroll-stopper while conveying
+                  key digital marketing insights.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every aspect—from layout to user interactions—was meticulously
-                  crafted to maintain a cohesive aesthetic, guaranteeing a
-                  consistent experience whether you’re exploring the site,
-                  engaging with product features, or navigating applications.
+                  The designs featured attention-grabbing visuals, bold
+                  typography, and crisp content that reflected the brand’s
+                  positioning as an SEO authority. From myth-busting to
+                  technical tips and feature highlights, each post was tailored
+                  to resonate with businesses aiming to boost their online
+                  visibility.
+                </p>
+                <p className="poppins-font text-[16px]">
+                  This project highlighted our ability to balance design
+                  aesthetics with strategic messaging, ultimately driving user
+                  interaction and brand credibility.
                 </p>
               </div>
             </div>

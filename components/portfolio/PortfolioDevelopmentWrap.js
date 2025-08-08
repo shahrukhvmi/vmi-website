@@ -9,7 +9,7 @@ export default function PortfolioDevelopmentWrap() {
     "/web-1.png",
     "/web-2.png",
     "/web-3.png",
-    "/web-4.png",
+    "/floor-port.png",
     "/web-5.png",
     "/web-6.png",
     "/web-7.png",
@@ -21,7 +21,10 @@ export default function PortfolioDevelopmentWrap() {
   ];
 
   return (
-    <section className="portfolio-main-wrapper relative z-10" id="portfolio">
+    <section
+      className="portfolio-main-wrapper relative z-10 scroll-mt-40"
+      id="development"
+    >
       <div className="w-6xl mx-auto max-container-width">
         <div className="portfolio-inner-heading text-center w-full">
           <h2 className="olivera-font">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -17,7 +18,7 @@ export default function Jana() {
               className="flex text-[18px] poppins-font items-center"
             >
               <span className="me-2">
-                <img src="/back-icon.svg" />
+                <Image src="/back-icon.svg" width={20} height={20} />
               </span>
               Back
             </Link>
@@ -25,7 +26,7 @@ export default function Jana() {
 
           <div className="single-portfolio-wrapper flex mt-5 gap-6 mb-30">
             <div className="single-portfolio-left">
-              <img src="/jana.png" />
+              <Image src="/jana.png" width={500} height={500} />
             </div>
 
             <div className="single-portfolio-right">
@@ -46,41 +47,37 @@ export default function Jana() {
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/role.svg" />
                 <p className="poppins-font text-[18px]">
-                  My Role: <span className="font-bold">Digital Designer</span>
+                  Scope:{" "}
+                  <span className="font-bold">
+                    Logo Design and Packaging Design
+                  </span>
                 </p>
               </div>
 
               <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
                 <img src="/tools.svg" />
                 <p className="poppins-font text-[18px]">
-                  Tools Used:{" "}
-                  <span className="font-bold">Adobe Illustrator</span>
-                </p>
-              </div>
-
-              <div className="portfolio-single-description-wrapper flex align-center gap-3 border-[#30283b] border-2 rounded-lg py-2 px-3 mb-4">
-                <img src="/tools.svg" />
-                <p className="poppins-font text-[18px]">
-                  Duration: <span className="font-bold">20 to 30 Days</span>
+                  Country: <span className="font-bold">KSA</span>
                 </p>
               </div>
 
               <div className="bg-white/5 border border-white/10 p-5 rounded-xl text-sm font-light text-white/90 shadow-sm space-y-3">
                 {/* Top Line and Heading */}
-                <h3 className="text-white poppins-font text-[20px]">Details</h3>
+                <h3 className="text-white poppins-font text-[20px]">Brief</h3>
                 <hr className="border-t border-white/20 rounded-full mb-2" />
 
                 {/* Paragraphs */}
                 <p className="poppins-font text-[16px]">
-                  This project allowed us to go all in on creating high-energy,
-                  colorful and striking imagery while building a design system
-                  that could scale across different digital touchpoints.
+                  Jana, a Saudi-based honey brand, approached us to create a
+                  visual identity that blends tradition with modern appeal. We
+                  designed a custom Arabic logo combined with elegant packaging
+                  to reflect the purity and richness of their honey products.
                 </p>
                 <p className="poppins-font text-[16px]">
-                  Every detail — from layout to interaction — was designed with
-                  consistency in mind, ensuring a unified look and feel whether
-                  you’re browsing through the website, interacting with a
-                  product feature, or navigating web apps like G-HUB.
+                  The branding captures natural warmth through golden tones and
+                  minimalist design, ensuring shelf presence and cultural
+                  resonance. The final outcome is a clean, authentic identity
+                  that speaks directly to the local and regional audience.
                 </p>
               </div>
             </div>

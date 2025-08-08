@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
+import Image from "next/image";
 
 const portfolioImages = [
   "/home-portfolio1.png",
@@ -74,10 +75,12 @@ export default function PortfolioSlider() {
       >
         {portfolioImages.concat(portfolioImages).map((src, i) => (
           <SwiperSlide key={i} className="home-portfolio-slide">
-            <img
+            <Image
               src={src}
               alt={`Portfolio item ${i + 1}`}
               className="rounded-2xl w-full h-auto max-h-[400px] object-cover object-center"
+              width={300}
+              height={300}
             />
           </SwiperSlide>
         ))}

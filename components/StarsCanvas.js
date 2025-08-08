@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState, useRef, useEffect, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
@@ -35,8 +35,23 @@ const StarBackground = (props) => {
 };
 
 export default function StarsCanvas() {
+  const [showCanvas, setShowCanvas] = useState(false);
+
+  useEffect(() => {
+    const checkViewport = () => {
+      setShowCanvas(window.innerWidth >= 768);
+    };
+
+    checkViewport(); // Initial check
+    window.addEventListener("resize", checkViewport);
+
+    return () => window.removeEventListener("resize", checkViewport);
+  }, []);
+
+  if (!showCanvas) return null; // Don't render anything on mobile
+
   return (
-    <div className="fixed inset-0 z-[8] top-0 left-0 w-full h-full">
+    <div className="fixed inset-0 z-[8] top-0 left-0 w-full h-full canva-wrap">
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <StarBackground />

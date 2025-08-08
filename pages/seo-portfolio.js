@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -10,8 +11,8 @@ export default function SeoPortfolio() {
           <div className="portfolio-banner-shadow-right"></div>
         </div>
 
-        <div className="w-6xl mx-auto max-container-width">
-          <div className="portfolio-inner-heading text-center w-full mb-30">
+        <div className="w-6xl mx-auto max-container-width portfolio-all-wrap gap-30">
+          <div className="portfolio-inner-heading text-center w-full">
             <h2 className="olivera-font">
               <span className="portfolio-inner-heading-top">
                 Search is the Map
@@ -23,26 +24,10 @@ export default function SeoPortfolio() {
             </h2>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
-            <Link href="/seo-portfolio/hire-tablets">
+          <div className="portfolio-single flex justify-center gap-30">
+            <Link href="/seo-portfolio/loco-customs">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-1.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">Hire Tablets</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/seo-portfolio/mayfair-weightloss-clinic">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-2.png" />
+                <Image src="/seo-1.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -51,7 +36,25 @@ export default function SeoPortfolio() {
                       </span>
                     </div>
                     <p className="ms-2 poppins-font font-bold">
-                      Mayfair Weight Loss Clinic
+                      Loco's Customs
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link href="/seo-portfolio/suja-driving-school">
+              <div className="detail-portfolio-image-wrapper relative">
+                <Image src="/seo-2.png" width={500} height={500} />
+                <div className="detail-portfolio-image-overlay">
+                  <div className="detail-portfolio-banner-badge">
+                    <div className="mb-2">
+                      <span className="ms-2 poppins-font detail-portfolio-branding">
+                        Search engine optimization
+                      </span>
+                    </div>
+                    <p className="ms-2 poppins-font font-bold">
+                      Suja Driving School
                     </p>
                   </div>
                 </div>
@@ -59,10 +62,10 @@ export default function SeoPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30 mb-0 md:mb-40">
             <Link href="/seo-portfolio/floor-express">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-3.png" />
+                <Image src="/seo-3.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -76,9 +79,9 @@ export default function SeoPortfolio() {
               </div>
             </Link>
 
-            <Link href="/seo-portfolio/son-of-a-coder">
+            <Link href="/seo-portfolio/franc-laurent">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-4.png" />
+                <Image src="/seo-4.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -86,113 +89,7 @@ export default function SeoPortfolio() {
                         Search engine optimization
                       </span>
                     </div>
-                    <p className="ms-2 poppins-font font-bold">
-                      Son of a Coder
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
-            <Link href="/seo-portfolio/ontime">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-5.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">Ontime</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/seo-portfolio/the-chapter-hotels">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-6.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">
-                      The Chapter Hotels
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
-            <Link href="/seo-portfolio/truly-greek">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-7.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">Truly Greek</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/seo-portfolio/fulfill-panda">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-8.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">Fulfill Panda</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-          </div>
-
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
-            <Link href="/seo-portfolio/360-products">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-9.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">360 Products</p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/seo-portfolio/earthane">
-              <div className="detail-portfolio-image-wrapper relative">
-                <img src="/seo-10.png" />
-                <div className="detail-portfolio-image-overlay">
-                  <div className="detail-portfolio-banner-badge">
-                    <div className="mb-2">
-                      <span className="ms-2 poppins-font detail-portfolio-branding">
-                        Search engine optimization
-                      </span>
-                    </div>
-                    <p className="ms-2 poppins-font font-bold">Earthane</p>
+                    <p className="ms-2 poppins-font font-bold">Franc Laurent</p>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -10,8 +11,8 @@ export default function DesignPortfolio() {
           <div className="portfolio-banner-shadow-right"></div>
         </div>
 
-        <div className="w-6xl mx-auto max-container-width">
-          <div className="portfolio-inner-heading text-center w-full mb-30">
+        <div className="w-6xl mx-auto max-container-width portfolio-all-wrap gap-30">
+          <div className="portfolio-inner-heading text-center w-full">
             <h2 className="olivera-font">
               <span className="portfolio-inner-heading-top">
                 Creative Design
@@ -23,10 +24,10 @@ export default function DesignPortfolio() {
             </h2>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/shawarma-lite">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-1.png" />
+                <Image src="/design-1.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -42,7 +43,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/almas-real-estate-services">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-2.png" />
+                <Image src="/design-2.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -59,10 +60,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/top-grease">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-4.png" />
+                <Image src="/design-4.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -78,7 +79,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/wefix">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-3.png" />
+                <Image src="/design-3.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -93,10 +94,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/level-orthodontics">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-5.png" />
+                <Image src="/design-5.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -114,7 +115,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/marca-beauty-supplies">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-6.png" />
+                <Image src="/design-6.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -131,10 +132,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/the-shiny-surface">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-7.png" />
+                <Image src="/design-7.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -152,7 +153,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/no-code-low-code">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-8.png" />
+                <Image src="/design-8.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -169,10 +170,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/lbs-lacrete-backhoe-services">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-11.png" />
+                <Image src="/design-11.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -190,7 +191,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/jana">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-12.png" />
+                <Image src="/design-12.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -205,10 +206,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/aj-cleaning-london">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-9.png" />
+                <Image src="/design-9.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -226,7 +227,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/joe-sells-miami">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-10.png" />
+                <Image src="/design-10.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -243,10 +244,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single flex justify-center gap-30">
             <Link href="/design-portfolio/bull-supps">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-13.png" />
+                <Image src="/design-13.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -262,7 +263,7 @@ export default function DesignPortfolio() {
 
             <Link href="/design-portfolio/mlaween">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-14.png" />
+                <Image src="/design-14.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
@@ -277,10 +278,10 @@ export default function DesignPortfolio() {
             </Link>
           </div>
 
-          <div className="portfolio-single flex justify-between mt-0 md:mt-8 mb-0 md:mb-30">
+          <div className="portfolio-single porfolio-alone flex justify-center gap-30 mb-0 md:mb-40">
             <Link href="/design-portfolio/alaa-alafaq">
               <div className="detail-portfolio-image-wrapper relative">
-                <img src="/design-15.png" />
+                <Image src="/design-15.png" width={500} height={500} />
                 <div className="detail-portfolio-image-overlay">
                   <div className="detail-portfolio-banner-badge">
                     <div className="mb-2">
