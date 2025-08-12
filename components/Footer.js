@@ -77,16 +77,28 @@ function Footer() {
               <p className="text-[15px]">Follow Us</p>
               <ul className="flex mt-4 gap-4 footer-icons">
                 <li>
-                  <img src="/facebook.svg" />
+                  <Link
+                    href="https://www.facebook.com/vibrantmediainc"
+                    target="_blank"
+                  >
+                    <img src="/facebook.svg" />
+                  </Link>
                 </li>
                 <li>
-                  <img src="/insta.svg" />
+                  <Link
+                    href="https://www.instagram.com/vibrantmediainc/"
+                    target="_blank"
+                  >
+                    <img src="/insta.svg" />
+                  </Link>
                 </li>
                 <li>
-                  <img src="/x.svg" />
-                </li>
-                <li>
-                  <img src="/linkedin.svg" />
+                  <Link
+                    href="https://www.linkedin.com/company/vibrantmedia-inc/"
+                    target="_blank"
+                  >
+                    <img src="/linkedin.svg" />
+                  </Link>
                 </li>
                 {/* <li>
                 <img src="/youtube.svg" />
@@ -103,7 +115,7 @@ function Footer() {
             © 2025 Vibrant Media Inc. All rights reserved
           </p>
           <p className="text-[#E9E9E9]">
-            Security | Privacy & Cookie Policy | Terms of Service
+            Privacy & Cookie Policy | Terms of Service
           </p>
         </div>
       </div>

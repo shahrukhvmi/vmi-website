@@ -118,14 +118,10 @@ export default function ContactForm() {
           <div className="contact-content">
             {/* LEFT TEXT */}
             <div className="contact-left">
-              <h2 className="contact-form-heading olivera-font">
-                Get Clear Solutions <br /> for Real Brand Needs
-              </h2>
+              <h2 className="contact-form-heading olivera-font">Let's talk!</h2>
               <p className="description">
-                We don’t work with standard templates or fixed pricing models.
-                All our offerings are tailored to your brand’s specific
-                requirements. Complete our online form to receive clear,
-                customized quotations prepared specifically for you.
+                Got a project coming up? Drop us your details and we’ll be in
+                touch to schedule an informal, no-obligation, non-salesy chat.
               </p>
 
               <div className="contact-info">
@@ -141,6 +137,23 @@ export default function ContactForm() {
                   <strong>For all inquiries:</strong>
                   <br />
                   <a href="tel:+923452646481">+92 3452 646 481</a>
+                </p>
+
+                <p>
+                  <strong>Office:</strong>
+                  <br />
+                  <a
+                    href="https://maps.app.goo.gl/NywMa5KeaJBnTiy48"
+                    target="_blank"
+                  >
+                    Vibrant Media Inc.
+                    <br />
+                    Plot # 1-A 1/6, 3rd Floor,
+                    <br />
+                    Block 1 Nazimabad,
+                    <br />
+                    Karachi, Pakistan
+                  </a>
                 </p>
               </div>
             </div>
@@ -237,7 +250,7 @@ export default function ContactForm() {
                     <label htmlFor="service">Services</label>
                     <select
                       id="service"
-                      className={`poppins-font ${
+                      className={`poppins-font text-white ${
                         err("service") ? "input-error" : ""
                       }`}
                       value={formData.service}
@@ -267,7 +280,7 @@ export default function ContactForm() {
                     <label htmlFor="country">Country</label>
                     <select
                       id="country"
-                      className={`poppins-font ${
+                      className={`poppins-font text-white${
                         err("country") ? "input-error" : ""
                       }`}
                       value={formData.country}

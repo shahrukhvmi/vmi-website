@@ -17,8 +17,8 @@ const testimonials = [
   },
   {
     name: "Lisa Andria",
-    role: "Owner & Director, Ladies Who Leap Long Beach",
-    country: "CA",
+    role: "Owner & Director, Ladies Who Leap",
+    country: "USA",
     image: "/testi-2.png", // replace with actual path
     quote:
       "Vibrant Media delivered an exceptional experience from start to finish. The team is professional, approachable, and truly understands how to bring a vision to life. They created a visually stunning and strategically sound website, explaining every recommendation with clarity and purpose. I look forward to continuing our collaboration. Highly recommended.",
@@ -70,7 +70,7 @@ export default function TestimonialSlider() {
                 <div className="w-[70%] text-[28px] flex flex-col justify-around home-testimonial-text">
                   <h3 className="olivera-font">“{t.quote}”</h3>
                   <p className="mt-6 font-normal poppins-font">
-                    <strong>{t.name}</strong> <br />
+                    <strong className="testi-name">{t.name}</strong> <br />
                     {t.role} <br />
                     {t.country}
                   </p>

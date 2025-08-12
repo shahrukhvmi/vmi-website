@@ -5,9 +5,9 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <main className="relative text-white min-h-screen overflow-hidden">
+    <main className="relative text-white overflow-hidden">
       <ContactForm />
-      <Assistance />
+      {/* <Assistance /> */}
     </main>
   );
 }

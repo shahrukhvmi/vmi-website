@@ -1091,7 +1091,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .about-banner-shadow {
   width: 100%;
-  height: 100%;
+  height: 94%;
   background: radial-gradient(
     circle at center,
     rgba(168, 92, 255, 0.4) 0%,
@@ -1728,6 +1728,9 @@ label {
 .home-testimonial-text p {
   font-size: 16px;
 }
+.testi-name {
+  font-size: 22px;
+}
 
 
 /* ----------  Responsive tweaks  ---------- */
@@ -1774,7 +1777,7 @@ label {
   .footer-wrapper {
     background-size: 800px;
     background-position-y: 60px;
-    background-position-x: 88%;
+    background-position-x: 90%;
   }
   .ceo-main-wrap {
     margin-top: 280px;
@@ -1861,6 +1864,9 @@ label {
   .home-testimonial-text p {
     font-size: 22px;
   }
+  .testi-name {
+  font-size: 28px;
+}
 
 }
 
