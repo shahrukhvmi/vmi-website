@@ -25,7 +25,7 @@ export default function FrancLaurent() {
 
           <div className="single-portfolio-wrapper flex mt-5 gap-9 mb-30">
             <div className="single-portfolio-left">
-              <img src="/suja.png" />
+              <img src="/suja.webp" />
             </div>
 
             <div className="single-portfolio-right">

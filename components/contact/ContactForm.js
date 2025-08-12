@@ -57,6 +57,8 @@ export default function ContactForm() {
     try {
       setSubmitting(true);
       // TODO: send to your API route
+      await new Promise((resolve) => setTimeout(resolve, 2000)); // 2s loader
+
       console.log("formData:", formData);
       // reset if needed:
       // setFormData({ name:"", company:"", email:"", phone:"", service:"", country:"", comments:"" });
@@ -97,17 +99,9 @@ export default function ContactForm() {
               </p>
 
               <p>
-                <strong>For other questions:</strong>
-                <br />
-                <a href="mailto:ask@vibrantmediainc.com">
-                  ask@vibrantmediainc.com
-                </a>
-              </p>
-
-              <p>
                 <strong>For all inquiries:</strong>
                 <br />
-                <a href="tel:+15034464257">+1 503 446 4257</a>
+                <a href="tel:+923452646481">+92 3452 646 481</a>
               </p>
             </div>
           </div>
@@ -131,7 +125,7 @@ export default function ContactForm() {
                     aria-describedby={err("name") ? "name-error" : undefined}
                   />
                   {err("name") && (
-                    <p id="name-error" className="error-text">
+                    <p id="name-error" className="error-text poppins-font">
                       {errors.name}
                     </p>
                   )}
@@ -167,7 +161,7 @@ export default function ContactForm() {
                     aria-describedby={err("email") ? "email-error" : undefined}
                   />
                   {err("email") && (
-                    <p id="email-error" className="error-text">
+                    <p id="email-error" className="error-text poppins-font">
                       {errors.email}
                     </p>
                   )}
@@ -187,7 +181,7 @@ export default function ContactForm() {
                     aria-describedby={err("phone") ? "phone-error" : undefined}
                   />
                   {err("phone") && (
-                    <p id="phone-error" className="error-text">
+                    <p id="phone-error" className="error-text poppins-font">
                       {errors.phone}
                     </p>
                   )}
@@ -219,7 +213,7 @@ export default function ContactForm() {
                     <option value="SEO">SEO</option>
                   </select>
                   {err("service") && (
-                    <p id="service-error" className="error-text">
+                    <p id="service-error" className="error-text poppins-font">
                       {errors.service}
                     </p>
                   )}
@@ -246,7 +240,7 @@ export default function ContactForm() {
                     <option value="Dubai">Dubai</option>
                   </select>
                   {err("country") && (
-                    <p id="country-error" className="error-text">
+                    <p id="country-error" className="error-text poppins-font">
                       {errors.country}
                     </p>
                   )}
@@ -270,7 +264,7 @@ export default function ContactForm() {
                   }
                 />
                 {err("comments") && (
-                  <p id="comments-error" className="error-text">
+                  <p id="comments-error" className="error-text poppins-font">
                     {errors.comments}
                   </p>
                 )}
@@ -282,7 +276,7 @@ export default function ContactForm() {
                   disabled={submitting}
                   className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
                   style={{
-                    opacity: submitting ? 0.7 : 1,
+                    opacity: submitting ? 1 : 1,
                     cursor: submitting ? "not-allowed" : "pointer",
                     background:
                       "linear-gradient(90deg,rgb(84, 47, 140),rgb(132, 72, 187))",
@@ -294,7 +288,7 @@ export default function ContactForm() {
                     `,
                   }}
                 >
-                  {submitting ? "Sending..." : "Get A Quote"}
+                  {submitting ? <div className="loader"></div> : "Get A Quote"}
                 </button>
               </div>
             </form>

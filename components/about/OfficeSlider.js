@@ -25,16 +25,6 @@ const images = [
   "/office3.png",
   "/office4.png",
   "/office5.png",
-  "/office1.png",
-  "/office2.png",
-  "/office3.png",
-  "/office4.png",
-  "/office5.png",
-  "/office1.png",
-  "/office2.png",
-  "/office3.png",
-  "/office4.png",
-  "/office5.png",
 ];
 
 export default function OfficeSlider() {

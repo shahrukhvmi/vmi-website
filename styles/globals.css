@@ -734,7 +734,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 
 .testimonial-main-wrap
   span.swiper-pagination-bullet.swiper-pagination-bullet-active::after {
-  animation: bullet-fill 4s linear forwards;
+  animation: bullet-fill 7s linear forwards;
   width: 100%;
 }
 .testimonial-main-wrap
@@ -899,8 +899,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .hero-text {
-  font-size: 68px;
-  line-height: 1.1;
+  font-size: 96px;
+  line-height: 0.8;
 }
 .hero-span {
   font-size: 83px;
@@ -1451,6 +1451,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .form-row {
   display: flex;
   gap: 20px;
+  align-items: flex-start; /* NEW */
 }
 
 .form-row input,
@@ -1691,6 +1692,19 @@ label {
 .portfolio-single img {
   width: 100%;
 }
+.loader {
+  /* border: 3px solid rgba(255, 255, 255, 0.3); */
+  border-top: 3px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 /* ================================ Portfolio page css End ============================= */
 
 .mobile-ring-slider {
@@ -1711,6 +1725,9 @@ label {
 .porfolio-main-section {
   height: 100vh;
 }
+.home-testimonial-text p {
+  font-size: 16px;
+}
 
 
 /* ----------  Responsive tweaks  ---------- */
@@ -1725,14 +1742,13 @@ label {
   .ring-section-max-width {
     width: 80%;
   }
-  .testimonial-img-width {
+  /* .testimonial-img-width {
     width: 65% !important;
     padding-left: 6px;
-  }
+  } */
   .hero-text {
-    font-size: 100px;
-    line-height: 1.1em;
-    font-weight: bold;
+    font-size: 116px;
+    line-height: 0.8em;
   }
   .available-text {
     font-size: 22px;
@@ -1913,10 +1929,14 @@ label {
     width: 34%;
   }
 }
-@media (max-width: 1440px) {
+
+@media (max-width: 1470px) {
   .footer-wrapper {
     background-size: 50%;
     background-position-x: 100%;
+  }
+  .index-main-padding {
+    padding-top: 200px;
   }
 }
 
@@ -1931,9 +1951,9 @@ label {
   .home-portfolio-slide {
     width: 400px !important;
   }
-  .testimonial-img-width {
+  /* .testimonial-img-width {
     width: 80%;
-  }
+  } */
   .footer-wrapper {
     background-size: 625px;
     background-position-x: 100%;
@@ -1951,7 +1971,7 @@ label {
     margin-left: -90px;
   }
   .hero-text {
-    font-size: 54px;
+    font-size: 74px;
   }
   .service-horizontal-heading {
     font-size: 70px;
@@ -1963,7 +1983,10 @@ label {
     font-size: 40px;
   }
   .home-testimonial-text h3 {
-    font-size: 28px;
+    font-size: 30px;
+  }
+  .home-testimonial-text p{
+    font-size: 16px;
   }
   .horizontal-remaining-text {
     font-size: 50px;
@@ -1983,7 +2006,7 @@ label {
     font-size: 80px;
   }
   .index-main-padding {
-    padding-top: 250px;
+    padding-top: 212px;
   }
 }
 @media (max-width: 1024px) {
@@ -2038,7 +2061,7 @@ label {
     display: none;
   }
   .hero-text {
-    font-size: 46px;
+    font-size: 62px;
   }
   .main-banner-para {
     font-size: 16px !important;
@@ -2227,6 +2250,12 @@ label {
   .mobile-links {
     margin-bottom: 6vh;
   }
+  .home-testimonial-text {
+    width: 100%;
+  }
+  .testimonial-main-wrap {
+    height: auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -2243,7 +2272,7 @@ label {
     font-size: 1.4rem;
   }
   .hero-text {
-    font-size: 36px;
+    font-size: 48px;
   }
   .ring-section-max-width{
     padding: 0px !important;

@@ -6,21 +6,27 @@ export default function PortfolioDesignWrap() {
   const router = useRouter();
 
   const portfolioImages = [
-    "/design-1.png",
-    "/design-2.png",
-    "/design-3.png",
-    "/design-4.png",
-    "/design-5.png",
-    "/design-6.png",
-    "/design-7.png",
-    "/design-8.png",
-    "/design-9.png",
-    "/design-10.png",
-    "/design-11.png",
-    "/design-12.png",
-    "/design-13.png",
-    "/design-14.png",
-    "/design-15.png",
+    { img: "/design-1.webp", url: "/design-portfolio/shawarma-lite/" },
+    {
+      img: "/design-2.webp",
+      url: "/design-portfolio/almas-real-estate-services/",
+    },
+    { img: "/design-3.webp", url: "/design-portfolio/wefix/" },
+    { img: "/design-4.webp", url: "/design-portfolio/top-grease/" },
+    { img: "/design-5.webp", url: "/design-portfolio/level-orthodontics/" },
+    { img: "/design-6.webp", url: "/design-portfolio/marca-beauty-supplies/" },
+    { img: "/design-7.webp", url: "/design-portfolio/the-shiny-surface/" },
+    { img: "/design-8.webp", url: "/design-portfolio/no-code-low-code/" },
+    { img: "/design-9.webp", url: "/design-portfolio/aj-cleaning-london/" },
+    { img: "/design-10.webp", url: "/design-portfolio/joe-sells-miami/" },
+    {
+      img: "/design-11.webp",
+      url: "/design-portfolio/lbs-lacrete-backhoe-services/",
+    },
+    { img: "/design-12.webp", url: "/design-porfolio/jana" },
+    { img: "/design-13.png", url: "/design-portfolio/bull-supps/" },
+    { img: "/design-14.webp", url: "/design-portfolio/mlaween/" },
+    { img: "/design-15.webp", url: "/design-portfolio/alaa-alafaq/" },
   ];
 
   return (
@@ -39,7 +45,7 @@ export default function PortfolioDesignWrap() {
           </h2>
         </div>
       </div>
-      <PortfolioPageSlider protfolio={portfolioImages} />
+      <PortfolioPageSlider portfolioImages={portfolioImages} concated={false} />
 
       <div className="w-full flex justify-center mt-8">
         <div className="nav-btn example-2">

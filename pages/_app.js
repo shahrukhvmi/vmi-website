@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import StarsCanvas from "@/components/StarsCanvas";
+import WhatsAppButton from "@/components/WhatsappBtn";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
       <StarsCanvas />
 
       <Component {...pageProps} />
+      <WhatsAppButton />
       <Footer />
     </>
   );

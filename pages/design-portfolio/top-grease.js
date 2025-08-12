@@ -18,7 +18,7 @@ export default function TopGrease() {
               className="flex text-[18px] poppins-font items-center"
             >
               <span className="me-2">
-                <Image src="/back-icon.svg" width={20} height={20} />
+                <img src="/back-icon.svg" width={20} height={20} />
               </span>
               Back
             </Link>
@@ -26,7 +26,7 @@ export default function TopGrease() {
 
           <div className="single-portfolio-wrapper flex mt-5 gap-6 mb-30">
             <div className="single-portfolio-left">
-              <Image src="/top-grease.png" width={500} height={500} />
+              <img src="/top-grease.png" />
             </div>
 
             <div className="single-portfolio-right">

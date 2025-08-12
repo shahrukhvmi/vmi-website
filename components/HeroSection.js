@@ -15,7 +15,7 @@ export default function HeroSection() {
         <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 text-green-400 mb-4 z-10">
           ● Available for New Projects
         </span>
-        <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
+        <h1 className="hero-text leading-tight z-10 olivera-font">
           Purposeful Marketing <br /> Across Channels
           {/* <span className="hero-span olivera-font">Development</span> Agency */}
         </h1>

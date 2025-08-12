@@ -26,7 +26,7 @@ export default function LevelOrthodontics() {
 
           <div className="single-portfolio-wrapper flex mt-5 gap-6 mb-30">
             <div className="single-portfolio-left">
-              <Image src="/level.png" width={500} height={500} />
+              <img src="/level.png" />
             </div>
 
             <div className="single-portfolio-right">

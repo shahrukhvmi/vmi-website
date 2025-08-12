@@ -16,12 +16,12 @@ import HomePortfolioSection from "@/components/HomePortfolioSection";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
-const HaloCanvas = dynamic(() => import("@/components/HaloCanvas"), {
-  ssr: false,
-});
-const StarsCanvas = dynamic(() => import("@/components/StarsCanvas"), {
-  ssr: false,
-});
+// const HaloCanvas = dynamic(() => import("@/components/HaloCanvas"), {
+//   ssr: false,
+// });
+// const StarsCanvas = dynamic(() => import("@/components/StarsCanvas"), {
+//   ssr: false,
+// });
 
 export default function Index() {
   const router = useRouter();
@@ -117,7 +117,7 @@ export default function Index() {
 
       <HomePortfolioSection />
 
-      <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main py-40 z-10 relative">
+      <div className="max-container-width w-6xl mx-auto flex justify-center brand-secton-main md:pt-100 py-40 z-10 relative">
         <div className="brand-secton-wrap center-content middle-quote-font">
           <h3 className="text-center olivera-font">
             A brand’s success goes beyond the launch. It exists because <br />

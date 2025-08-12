@@ -6,18 +6,18 @@ export default function PortfolioDevelopmentWrap() {
   const router = useRouter();
 
   const portfolioImages = [
-    "/web-1.png",
-    "/web-2.png",
-    "/web-3.png",
-    "/floor-port.png",
-    "/web-5.png",
-    "/web-6.png",
-    "/web-7.png",
-    "/web-8.png",
-    "/web-9.png",
-    "/web-10.png",
-    "/web-11.png",
-    "/web-12.png",
+    { img: "/web-1.webp", url: "/development-portfolio/media-co-uk/" },
+    { img: "/web-2.webp", url: "/development-portfolio/earthane/" },
+    { img: "/web-3.webp", url: "/development-portfolio/rhv-media/" },
+    { img: "/floor-port.png", url: "/development-portfolio/floor-express/" },
+    { img: "/web-5.webp", url: "/development-portfolio/360-products/" },
+    { img: "/web-6.webp", url: "/development-portfolio/loco-customs/" },
+    { img: "/web-7.webp", url: "/development-portfolio/fulfill-panda/" },
+    { img: "/web-8.webp", url: "/development-portfolio/relish-restaurant/" },
+    { img: "/web-9.webp", url: "/development-portfolio/etizan/" },
+    { img: "/web-10.webp", url: "/development-portfolio/ferrara/" },
+    { img: "/web-11.webp", url: "/development-portfolio/karwan-rent-a-car/" },
+    { img: "/web-12.webp", url: "/development-portfolio/taiia-jewellery/" },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function PortfolioDevelopmentWrap() {
           </h2>
         </div>
       </div>
-      <PortfolioPageSlider protfolio={portfolioImages} />
+      <PortfolioPageSlider portfolioImages={portfolioImages} concated={false} />
 
       <div className="w-full flex justify-center mt-8">
         <div className="nav-btn example-2">

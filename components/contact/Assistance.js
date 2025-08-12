@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Assistance() {
@@ -11,7 +12,8 @@ export default function Assistance() {
           </p>
 
           <div className="nav-btn example-2 form-assist-btn">
-            <button
+            <Link
+              href="tel:+923452646481"
               className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:
@@ -25,7 +27,7 @@ export default function Assistance() {
               }}
             >
               Speak with Us
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -38,7 +40,9 @@ export default function Assistance() {
           </p>
 
           <div className="nav-btn example-2 form-assist-btn">
-            <button
+            <Link
+              href="https://maps.app.goo.gl/NywMa5KeaJBnTiy48"
+              target="_blank"
               className="inner flex justify-center gap-2 poppins-font text-2xl items-center"
               style={{
                 background:
@@ -52,7 +56,7 @@ export default function Assistance() {
               }}
             >
               Get Directions
-            </button>
+            </Link>
           </div>
         </div>
       </div>

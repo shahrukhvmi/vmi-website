@@ -6,13 +6,20 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import Image from "next/image";
+import Link from "next/link";
 
 const portfolioImages = [
-  "/home-portfolio1.png",
-  "/home-portfolio2.png",
-  "/home-portfolio3.png",
-  "/home-portfolio4.png",
-  "/home-portfolio5.png",
+  { img: "/web-1.webp", url: "/development-portfolio/media-co-uk/" },
+  { img: "/web-2.webp", url: "/development-portfolio/earthane/" },
+  { img: "/design-1.webp", url: "/design-portfolio/shawarma-lite/" },
+  {
+    img: "/design-3.webp",
+    url: "/design-portfolio/wefix/",
+  },
+  { img: "/social-1.webp", url: "/social-media-portfolio/tech-ancestry/" },
+  { img: "/social-2.webp", url: "/social-media-portfolio/bridle-360/" },
+  { img: "/seo-3.png", url: "/seo-portfolio/floor-express/" },
+  { img: "/seo-2.png", url: "/seo-portfolio/suja-driving-school/" },
 ];
 
 export default function PortfolioSlider() {
@@ -73,15 +80,17 @@ export default function PortfolioSlider() {
         }}
         className="portfolio-slider"
       >
-        {portfolioImages.concat(portfolioImages).map((src, i) => (
+        {portfolioImages.concat(portfolioImages).map((item, i) => (
           <SwiperSlide key={i} className="home-portfolio-slide">
-            <Image
-              src={src}
-              alt={`Portfolio item ${i + 1}`}
-              className="rounded-2xl w-full h-auto max-h-[400px] object-cover object-center"
-              width={300}
-              height={300}
-            />
+            <Link href={item?.url}>
+              <Image
+                src={item?.img}
+                alt={`Portfolio item ${i + 1}`}
+                className="rounded-2xl w-full h-auto max-h-[400px] object-cover object-center"
+                width={300}
+                height={300}
+              />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -6,12 +6,15 @@ export default function PortfolioSocialWrap() {
   const router = useRouter();
 
   const portfolioImages = [
-    "/social-1.png",
-    "/social-2.png",
-    "/social-3.png",
-    "/social-4.png",
-    "/social-5.png",
-    "/social-6.png",
+    { img: "/social-1.webp", url: "/social-media-portfolio/tech-ancestry/" },
+    { img: "/social-2.webp", url: "/social-media-portfolio/bridle-360/" },
+    { img: "/social-3.webp", url: "/social-media-portfolio/ravvrank/" },
+    {
+      img: "/social-4.webp",
+      url: "/social-media-portfolio/tanaal-properties/",
+    },
+    { img: "/social-5.webp", url: "/social-media-portfolio/salli-sit-happy/" },
+    { img: "/social-6.webp", url: "/social-media-portfolio/aaila-foods/" },
   ];
 
   return (
@@ -30,7 +33,7 @@ export default function PortfolioSocialWrap() {
           </h2>
         </div>
       </div>
-      <PortfolioPageSlider protfolio={portfolioImages} />
+      <PortfolioPageSlider portfolioImages={portfolioImages} concated={false} />
       <div className="w-full flex justify-center mt-8">
         <div className="nav-btn example-2">
           <button

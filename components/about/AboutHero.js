@@ -12,7 +12,7 @@ export default function AboutHero() {
         <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 mb-4 z-10 poppins-font">
           We don’t just design
         </span>
-        <h1 className="hero-text leading-tight z-10 olivera-font poppins-font">
+        <h1 className="hero-text leading-tight z-10 olivera-font">
           Building Brands that Sustain,
           <br /> Expand, and Outperform
           {/* <span className="hero-span olivera-font">Development</span> Agency */}

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useEffect } from "react";
 
 export default function CeoSection() {
@@ -40,7 +41,7 @@ export default function CeoSection() {
               <p className="ceo-follow poppins-font">Follow on</p>
               <div className="ceo-social-icons">
                 <ul className="flex mt-4 gap-4">
-                  <li>
+                  {/* <li>
                     <img src="/facebook.svg" />
                   </li>
                   <li>
@@ -48,9 +49,14 @@ export default function CeoSection() {
                   </li>
                   <li>
                     <img src="/x.svg" />
-                  </li>
+                  </li> */}
                   <li>
-                    <img src="/linkedin.svg" />
+                    <Link
+                      href="https://www.linkedin.com/in/alammansoor/"
+                      target="_blank"
+                    >
+                      <img src="/linkedin.svg" />
+                    </Link>
                   </li>
                   {/* <li>
                 <img src="/youtube.svg" />
@@ -78,7 +84,7 @@ export default function CeoSection() {
               <p className="ceo-follow poppins-font">Follow on</p>
               <div className="ceo-social-icons">
                 <ul className="flex mt-4 gap-4">
-                  <li>
+                  {/* <li>
                     <img src="/facebook.svg" />
                   </li>
                   <li>
@@ -86,9 +92,14 @@ export default function CeoSection() {
                   </li>
                   <li>
                     <img src="/x.svg" />
-                  </li>
+                  </li> */}
                   <li>
-                    <img src="/linkedin.svg" />
+                    <Link
+                      href="https://www.linkedin.com/in/tahseenb2b/"
+                      target="_blank"
+                    >
+                      <img src="/linkedin.svg" />
+                    </Link>
                   </li>
                   {/* <li>
                 <img src="/youtube.svg" />

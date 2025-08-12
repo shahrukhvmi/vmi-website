@@ -6,10 +6,10 @@ export default function PortfolioSeoWrap() {
   const router = useRouter();
 
   const portfolioImages = [
-    "/seo-1.png",
-    "/seo-2.png",
-    "/seo-3.png",
-    "/seo-4.png",
+    { img: "/seo-1.png", url: "/seo-portfolio/loco-customs/" },
+    { img: "/seo-2.png", url: "/seo-portfolio/suja-driving-school/" },
+    { img: "/seo-3.png", url: "/seo-portfolio/floor-express/" },
+    { img: "/seo-4.png", url: "/seo-portfolio/franc-laurent/" },
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function PortfolioSeoWrap() {
           </h2>
         </div>
       </div>
-      <PortfolioPageSlider protfolio={portfolioImages} />
+      <PortfolioPageSlider portfolioImages={portfolioImages} concated={true} />
       <div className="w-full flex justify-center mt-8">
         <div className="nav-btn example-2">
           <button

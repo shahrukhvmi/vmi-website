@@ -31,6 +31,7 @@ const testimonials = [
     quote:
       "I was looking for a team that could truly understand my brand and help me build something meaningful, and Vibrant Media delivered exactly that. From designing my logo and brand identity to building a beautiful website and handling SEO, they managed everything with creativity and care. The results speak for themselves. I’ve already seen growth and better visibility online. Truly grateful for their support and expertise.",
   },
+
   // Add more testimonials as needed
 ];
 
@@ -47,7 +48,7 @@ export default function TestimonialSlider() {
             prevEl: ".swiper-prev",
           }}
           autoplay={{
-            delay: 4000,
+            delay: 7000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -59,16 +60,16 @@ export default function TestimonialSlider() {
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
               <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-                <div className="w-[100%] testimonial-img-width rounded-lg overflow-hidden">
+                <div className="w-[30%] testimonial-img-width rounded-lg overflow-hidden">
                   <img
                     src={t.image}
                     alt={t.name}
                     className="object-cover w-full"
                   />
                 </div>
-                <div className="text-[28px] flex flex-col justify-around home-testimonial-text">
+                <div className="w-[70%] text-[28px] flex flex-col justify-around home-testimonial-text">
                   <h3 className="olivera-font">“{t.quote}”</h3>
-                  <p className="mt-6 text-sm font-normal poppins-font">
+                  <p className="mt-6 font-normal poppins-font">
                     <strong>{t.name}</strong> <br />
                     {t.role} <br />
                     {t.country}

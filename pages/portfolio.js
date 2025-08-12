@@ -8,10 +8,10 @@ import React from "react";
 
 export default function portfolio() {
   return (
-    <main className="relative text-white  overflow-hidden">
+    <main className="relative text-white overflow-hidden">
       <section>
-        <div className="relative flex flex-col items-center justify-center text-white text-center px-4 z-10 porfolio-main-section">
-          <div className="portfolio-banner-shadow"></div>
+        <div className="relative flex flex-col items-center justify-center pt-20 text-white text-center px-4 z-10 ">
+          {/* <div className="portfolio-banner-shadow"></div>
           <div className="portfolio-banner-shadow-right"></div>
           <span className="bg-white/10 text-sm available-text px-4 py-1 rounded-full border border-white/20 mb-4 z-10 poppins-font">
             <span className="me-1 text-[#30D21A] text-[18px]">●</span>Still
@@ -19,7 +19,7 @@ export default function portfolio() {
           </span>
           <h1 className="hero-text leading-tight z-10 olivera-font poppins-font mb-5">
             Stories Told in <br /> Pixels and Code
-            {/* <span className="hero-span olivera-font">Development</span> Agency */}
+            <span className="hero-span olivera-font">Development</span> Agency
           </h1>
           <div className="flex justify-between gap-6 portfolio-fields">
             <Link href="#design">
@@ -49,7 +49,7 @@ export default function portfolio() {
                 <p className="ms-2 poppins-font">Search engine optimization</p>
               </div>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
