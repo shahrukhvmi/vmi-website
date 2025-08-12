@@ -75,6 +75,17 @@ export default function ContactForm() {
       showToast("Form submitted successfully!", "success");
 
       console.log("formData:", formData);
+      setTimeout(() => {
+        setFormData({
+          name: "",
+          company: "",
+          email: "",
+          phone: "",
+          service: "",
+          country: "",
+          comments: "",
+        });
+      }, 300);
       // reset if needed:
       // setFormData({ name:"", company:"", email:"", phone:"", service:"", country:"", comments:"" });
     } catch (err) {
